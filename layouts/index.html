@@ -1,0 +1,14 @@
+{{ define "content" }}
+<div class="intro">
+    <div class="intro-summary">
+        <div>
+            <img class="face" src="images/face.png" alt="my face">
+        </div>
+
+        <h1> Matt Snider </h1>
+        <h3> {{ .Site.Params.job_title }}</h3>
+        {{ partial "social.html" .Site.Params.social }}
+    </div>
+</div>
+{{ end }}
+

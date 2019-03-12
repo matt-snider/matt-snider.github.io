@@ -1,0 +1,157 @@
+/**
+ * General
+ */
+body {
+    font-family: "Fira Mono", monospace;
+    font-size: 62.5%;
+
+    color: #323232;
+    background-color: #fefefe;
+
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-weight: 700;
+    letter-spacing: .0625em;
+    margin: 1.0rem 0;
+    text-transform: uppercase;
+}
+
+h1 {
+  font-size: 2.4rem;
+  line-height: 2.0rem;
+}
+
+h2 {
+  font-size: 2.0rem;
+  line-height: 1.6rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+  line-height: 1.2rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+  line-height: 1.0rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+  line-height: 0.8rem;
+}
+
+h6 {
+  font-size: 1.0rem;
+  line-height: 0.6rem;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #323232;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.feather {
+  width: 24px;
+  height: 24px;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+/**
+ * Main Sections
+ */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.content {
+    flex-grow: 1;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    text-align: center;
+}
+
+/**
+ * Intro
+ */
+.intro {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro h1, .intro h2, .intro h3, .intro h4, .intro h5, .intro h6 {
+    margin-top: 0.5rem;
+}
+
+.intro-summary {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.face {
+    height: 250px;
+    border: 1px solid #dee2e6;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+/**
+ * Social
+ */
+.social-link, .social-link:hover {
+    text-decoration: none;
+}
+
+.social-link:hover {
+    opacity: 0.75;
+}
+
+
+/**
+ * Navigation
+ */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+
+    border-bottom: 1px solid black;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+}
+
+.nav-item {
+    padding: 0 5px;
+    display: inline-block;
+}
+
+.nav-link {
+    font-size: 1.75em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
