@@ -5,7 +5,7 @@
             <img class="face" src="images/face.png" alt="my face">
         </div>
 
-        <h1> Matt Snider </h1>
+        <h1> {{ .Site.Params.full_name }} </h1>
         <h3> {{ .Site.Params.job_title }}</h3>
         {{ partial "social.html" .Site.Params.social }}
     </div>

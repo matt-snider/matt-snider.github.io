@@ -2,11 +2,12 @@ title = "Matt Snider"
 baseURL = "http://matt-snider.github.io/"
 
 [params]
+    full_name = "Matt Snider"
     job_title = "Software Developer"
 
     [params.social]
     github_url  = "https://github.com/matt-snider"
     gitlab_url  = "https://gitlab.com/matt-snider"
     keybase_url = "https://keybase.io/mattsnider"
-    email_url   = "mailto:matt.[mylastname]@protonmail.com"
+    email_url   = "mailto:[myfirstname].[mylastname]@protonmail.com"
 
