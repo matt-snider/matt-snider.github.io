@@ -10,6 +10,10 @@
         <base href="{{ .Site.BaseURL }}">
         <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
 
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/bootstrap-spacing-utils.css">
+        <link rel="stylesheet" href="/css/milligram.min.css">
+
         <link rel="stylesheet" href="/css/styles.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
     </head>
@@ -17,7 +21,7 @@
         <main class="wrapper">
             {{ partial "header.html" . }}
 
-            <div class="content">
+            <div class="container">
                 {{ block "content" . }}
                 {{ end }}
             </div>

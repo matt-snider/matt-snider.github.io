@@ -3,49 +3,11 @@
  */
 body {
     font-family: "Fira Mono", monospace;
-    font-size: 62.5%;
 
     color: #323232;
     background-color: #fefefe;
 
     margin: 0;
-}
-
-h1, h2, h3, h4, h5, h6 { 
-    font-weight: 700;
-    letter-spacing: .0625em;
-    margin: 1.0rem 0;
-    text-transform: uppercase;
-}
-
-h1 {
-  font-size: 2.4rem;
-  line-height: 2.0rem;
-}
-
-h2 {
-  font-size: 2.0rem;
-  line-height: 1.6rem;
-}
-
-h3 {
-  font-size: 1.6rem;
-  line-height: 1.2rem;
-}
-
-h4 {
-  font-size: 1.4rem;
-  line-height: 1.0rem;
-}
-
-h5 {
-  font-size: 1.2rem;
-  line-height: 0.8rem;
-}
-
-h6 {
-  font-size: 1.0rem;
-  line-height: 0.6rem;
 }
 
 a, a:visited {
