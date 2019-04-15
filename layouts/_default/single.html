@@ -1,8 +1,31 @@
 {{ define "content" }}
 <div>
     <h1>{{ .Title }}</h1>
-    <div class="content">
-        {{ .Content | markdownify }}
+    <div class="ml-2">
+        <div>
+            <span> Links: </span>
+            <span>
+                {{ range .Params.links }}
+                    <a href="{{ .href }}">
+                        <code>
+                        {{ .title }}
+                        </code>
+                    </a>
+                {{ end }}
+            </span>
+        </div>
+        <div>
+            <span> Tag: </span>
+            <span>
+                {{ range .Params.tags }}
+                <code>{{.}}</code>
+                {{ end }}
+            </span>
+        </div>
+
+        <div class="my-5">
+            {{ .Content | markdownify }}
+        </div>
     </div>
 </div>
 {{ end }}
