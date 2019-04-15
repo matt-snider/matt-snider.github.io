@@ -1,0 +1,108 @@
+# Work Experience
+#
+# Fill out the required fields below to generate a new entry
+# in work experience.
+#
+# Note: `summary` will be rendered with `markdownify`.
+#
+
+-
+    company: Fresh City Farms
+    position: Contractor/Freelancer
+
+    location: Remote
+
+    start: 2015-04-01
+    end:
+
+    summary: |
+        Working remotely on frontend/backend for this Toronto-based eCommerce platform.
+
+    technologies:
+        # Languages
+        - PHP
+        - Javascript
+
+        # Frameworks
+        - Kohana
+        - VueJS
+
+        # Databases
+        - MySQL
+
+        # Tools
+        - Docker
+
+-
+    company: Surf Media Gmbh
+
+    position: Software Developer
+
+    location: Bremen, Germany
+
+    start: 2015-04-01
+    end: 2018-10-01
+
+    summary: |
+        Designed, implemented, and tested web services for an advertising performance network in a Deis-based microservices architecture. 
+        Built a SOCKS5 proxy server as part of our testing infrastructure.
+
+    technologies:
+        # Languages
+        - Java
+        - Python
+        - Javascript
+
+        # Frameworks
+        - Dropwizard
+        - Django/DRF
+        - Tornado
+        - Flask
+        - AngularJS
+
+        # Databases
+        - PostgreSQL
+        - RabbitMQ
+        - Redis
+        - MongoDB
+
+        # Tools
+        - Docker
+        - Deis
+        - Selenium
+        - Sentry
+
+        # Organizational
+        - GitLab
+        - GitLab CI
+        - JIRA
+
+-
+    company: Ceridian Dayforce
+
+    position: Software Developer, Implementation Tools
+
+    location: Toronto, Canada
+
+    start: 2013-07-01
+    end: 2014-08-01
+
+    summary: |
+        Spearheaded the development of a new internal toolset for implementation consultants to accelerate the implementation cycle.
+
+    technologies:
+        # Languages
+        - C#
+        - Java
+
+        # Frameworks
+        - WPF
+        - Swing
+        - JavaFX
+
+        # Databases
+        - Microsoft SQL/TSQL
+
+        # Tools
+        - Apache ANT
+
