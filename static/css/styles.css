@@ -14,7 +14,7 @@ body {
 a {
     transition: color .4s;
     color: #265C83;
-    text-decoration: none; 
+    text-decoration: underline;
 }
 
 a:link,
