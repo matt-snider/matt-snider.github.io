@@ -24,4 +24,14 @@
         {{ end }}
     </div>
 </div>
+
+<div class="my-3">
+    <h3> Natural Languages </h3>
+
+    <div class="my-3">
+        {{ range $.Site.Data.skills.natural_languages }}
+           {{ partial "natural-languages.html" . }}
+        {{ end }}
+    </div>
+</div>
 {{ end }}

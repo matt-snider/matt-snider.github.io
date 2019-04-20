@@ -20,7 +20,9 @@
                 </td>
                 <td>
                     {{ range (index $.tags $tag) }}
-                    <a href="{{ .Page.RelPermalink }}"> {{ .Page.Title }} </a>
+                    <div>
+                        <a href="{{ .Page.RelPermalink }}">{{- .Page.Title -}}</a>
+                    </div>
                     {{ end }}
                 </td>
             </tr>
