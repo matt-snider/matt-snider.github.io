@@ -1,6 +1,6 @@
 ---
 title: "dict.cc CLI Client"
-weight: 100
+weight: 50
 
 links:
     - title: GitHub
