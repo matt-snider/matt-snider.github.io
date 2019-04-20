@@ -15,7 +15,7 @@ tags:
     - CLI
 ---
 
-I use [VimWiki][vimwiki] _a lot_ in my daily life as my [personal knowledge base/wiki][pkb] and journal. I tag my notes extensively but found the built-in tag search in Vim and VimWiki seriously lacking. 
+I use [VimWiki][vimwiki] a lot in my daily life as my [personal knowledge base/wiki][pkb] and journal. I tag my notes extensively but found the built-in tag search in Vim and VimWiki seriously lacking. 
 
 <!--more-->
 

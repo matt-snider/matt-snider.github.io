@@ -13,7 +13,7 @@ tags:
     - CLI
 ---
 
-I'm a big fan of [Todoist][todoist] for managing my productivity, but I also feel strongly about using _open-source_ and _self-hosted_ tools, where you _own your own data_. This led me to build a tool to migrate all my tasks from Todoist into Taskwarrior.
+I'm a big fan of [Todoist][todoist] for managing my productivity, but I also feel strongly about using open-source and self-hosted tools, where you own your own data. This led me to build a tool to migrate all my tasks from Todoist into Taskwarrior.
 
 <!--more-->
 
