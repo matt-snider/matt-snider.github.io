@@ -1,5 +1,5 @@
 ---
-title: "CLI Client - dict.cc"
+title: "dict.cc CLI Client"
 weight: 100
 
 links:
