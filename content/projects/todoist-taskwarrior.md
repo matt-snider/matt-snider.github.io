@@ -15,6 +15,8 @@ tags:
 
 I'm a big fan of [Todoist][todoist] for managing my productivity, but I also feel strongly about using _open-source_ and _self-hosted_ tools, where you _own your own data_. This led me to build a tool to migrate all my tasks from Todoist into Taskwarrior.
 
+<!--more-->
+
 The tool is written in Python 3.x and is a [Click][click]-based CLI. It can migrate all tasks at once, or iterate through them prompting the user to modify, skip, etc, along the way.
 
 For example:

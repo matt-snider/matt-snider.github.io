@@ -16,7 +16,11 @@ tags:
 
 This is a now abandoned attempt at building a Bootstrap4-based component framework for AngularJS. 
 
-At the time, the company where I worked used AngularJS and Bootstrap, but decided against several existing component frameworks for various reasons. I decided  it would be fun (and maybe even useful!) to build one myself. I wanted to make a more ergonomic framework like some of the more modern ones, e.g. by using transclusion slots more liberally instead of properties, by hiding most of the Bootstrap boilerplate/CSS.
+At the time, the company where I worked used AngularJS and Bootstrap, but decided against several existing component frameworks for various reasons. I decided it would be fun (and maybe even useful!) to build one myself. 
+
+<!--more-->
+
+I wanted to make a more ergonomic framework like some of the more modern ones, e.g. by using transclusion slots more liberally instead of properties, by hiding most of the Bootstrap boilerplate/CSS.
 
 It was indeed fun, but I never completed the effort.
 

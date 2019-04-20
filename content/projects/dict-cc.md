@@ -13,6 +13,8 @@ tags:
 
 I started this project while learning German so I was using [dict.cc][dict.cc] an awful lot. Being able to run lookups from the terminal instead of having to navigate to the webpage each time was a big boon. I also wanted to improve my knowledge of Haskell so this was a good starting project.
 
+<!--more-->
+
 Here's an example
 
 ```sh
