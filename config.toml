@@ -1,5 +1,5 @@
 title     = "Matt Snider"
-baseURL   = "http://matt-snider.github.io/"
+baseURL   = "https://matt-snider.github.io/"
 copyright = "© 2019 Matt Snider"
 
 [params]
