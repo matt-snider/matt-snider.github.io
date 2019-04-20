@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/projects/monkeylang/</guid>
-      <description>&lt;p&gt;This is the code as I follow along with the excellent book &lt;a href=&#34;https://interpreterbook.com/&#34;&gt;&lt;em&gt;Writing an Interpreter in Go&lt;/em&gt;&lt;/a&gt; by Thorsten Ball. The book introduces the reader to the Go programming language and builds an interpreter and REPL for a C-like programming language called &lt;strong&gt;monkey&lt;/strong&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is the code as I follow along with the excellent book &lt;a href=&#34;https://interpreterbook.com/&#34;&gt;&lt;em&gt;Writing an Interpreter in Go&lt;/em&gt;&lt;/a&gt; by Thorsten Ball. The book introduces the reader to the Go programming language and builds an interpreter and REPL for a C-like programming language called &lt;em&gt;monkey&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>

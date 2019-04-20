@@ -25,7 +25,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/projects/dict-cc/</guid>
-      <description>&lt;p&gt;I started this project while learning German so I was using &lt;a href=&#34;https://www.dict.cc/&#34;&gt;dict.cc&lt;/a&gt; an awful lot. Being able to run lookups from the terminal instead of having to navigate to the webpage each time was a big boon. I also wanted to improve my knowledge of Haskell so this was a good starting project.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I started this project while learning German so I was using &lt;a href=&#34;https://www.dict.cc/&#34;&gt;dict.cc&lt;/a&gt; frequently. Being able to run lookups from the terminal instead of having to navigate to the webpage each time was a big boon. I also wanted to improve my knowledge of Haskell so this was a good starting project.&lt;/p&gt;</description>
     </item>
     
   </channel>
