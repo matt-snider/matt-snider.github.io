@@ -19,9 +19,9 @@
                     {{ end }}
                 </td>
                 <td>
-                    {{ range (index $.tags $tag) }}
+                    {{ range (index $.tags $tag).Pages.ByWeight }}
                     <div>
-                        <a href="{{ .Page.RelPermalink }}">{{- .Page.Title -}}</a>
+                        <a href="{{ .RelPermalink }}">{{- .Title -}}</a>
                     </div>
                     {{ end }}
                 </td>
