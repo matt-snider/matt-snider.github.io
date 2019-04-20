@@ -12,5 +12,3 @@ I really like writing software, in particular:
 * Favourite frontend frameworks: **React**
 * Also interested in learning: **Erlang/Elixir**, **Purescript**
 
-Take a look at some of the [projects](/projects) I've worked on.
-
