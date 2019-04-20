@@ -9,6 +9,15 @@ Run the development server with:
 $ hugo server
 ```
 
+There are several types of content entries that can be created:
+
+* Project description
+    * `hugo new projects/my-new-project.md`
+* Job description
+    * `hugo new work/my-new-job.md`
+
+Be sure to fill out all fields in the front matter!
+
 ## Building
 
 TODO
