@@ -1,0 +1,29 @@
+<div>
+    <table class="skills-table">
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Level</th>
+            <th scope="col">Projects</th>
+        </tr>
+        {{ range sort .skills "level" "desc" }}
+            {{ $tag   := lower .name }}
+            {{ $level := string .level }}
+
+            <tr>
+                <td> {{ .name }} </td>
+                <td>
+                    <div class="level"> {{ index $.levels $level }} </div>
+
+                    {{ with .note }}
+                    <div class="note"> ({{ . }}) </div>
+                    {{ end }}
+                </td>
+                <td>
+                    {{ range (index $.tags $tag) }}
+                    <a href="{{ .Page.RelPermalink }}"> {{ .Page.Title }} </a>
+                    {{ end }}
+                </td>
+            </tr>
+        {{ end }}
+    </table>
+</div>

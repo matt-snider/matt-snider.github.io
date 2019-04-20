@@ -135,3 +135,22 @@ a.nav-link:hover {
     text-decoration: underline;
 }
 
+/**
+ * Skills Table
+ */
+.skills-table th,
+.skills-table td {
+    padding: 0.8rem 1.0rem;
+}
+
+.skills-table .note {
+    font-size: 0.65em;
+}
+
+/**
+ * Project-specific
+ */
+
+img[alt=vue-guitar-chords-image] {
+    width: 250px;
+}
