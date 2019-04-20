@@ -32,6 +32,11 @@ entries:
     - name: Go
       level: 1
 
+    - name: PHP
+      level: 2
+      note: reluctantly...
+
+
     # Programming Languages - Out of practice
     - name: C#
       level: 1
