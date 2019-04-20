@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Matt Snider">
+        <meta name="description" content="https://matt-snider.github.io/">
+        
+        <meta name="generator" content="Hugo 0.54.0" />
+
+        <base href="https://matt-snider.github.io/">
+        <title>Matt Snider</title>
+
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/bootstrap-spacing-utils.css">
+        <link rel="stylesheet" href="/css/milligram.min.css">
+
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    </head>
+    <body>
+        <main class="wrapper">
+            <nav class="navbar">
+    <ul class="nav-list">
+        <li class="nav-item">
+            <a href="/" class="nav-link">
+                Matt Snider
+            </a>
+        </li>
+    </ul>
+
+    <ul class="nav-list">
+        <li class="nav-item">
+            <a href="/about" class="nav-link">
+                About
+            </a>
+        </li>
+
+        
+
+
+        <li class="nav-item">
+            <a href="/projects" class="nav-link">
+                Projects
+            </a>
+        </li>
+    </ul>
+</nav>
+
+
+
+            <div class="content container">
+                
+<div>
+    <h1>dict.cc CLI Client</h1>
+    <div class="ml-2">
+        <div>
+            <span> Links: </span>
+            <span>
+                
+                    <a href="https://github.com/matt-snider/dict.cc">
+                        <code>
+                        GitHub
+                        </code>
+                    </a>
+                
+            </span>
+        </div>
+        <div>
+            <span> Tag: </span>
+            <span>
+                
+                <code>Haskell</code>
+                
+                <code>CLI</code>
+                
+            </span>
+        </div>
+
+        <div class="my-5">
+            <p>I started this project while learning German so I was using <a href="https://www.dict.cc/">dict.cc</a> an awful lot. Being able to run lookups from the terminal instead of having to navigate to the webpage each time was a big boon. I also wanted to improve my knowledge of Haskell so this was a good starting project.</p>
+
+<p>Here&rsquo;s an example</p>
+
+<pre><code class="language-sh">$ dict-cc dictionary
+
+Englisch                                                      Deutsch
+===========                                                ==========
+ling. publ. dictionary                        Wörterbuch {n} [1324 ✓]
+dictionary                                         Lexikon {n} [70 ✓]
+dictionary                        Diktionär {n} {m} [veraltet] [66 ✓]
+</code></pre>
+
+<p>If I were to start again, I would base it on the <a href="https://en.wikipedia.org/wiki/DICT">DICT dictionary network protocol</a> and then add other backends from there as necessary (e.g. dict.cc, Linguee, Leo). Maybe at some point I will refactor it.</p>
+
+        </div>
+    </div>
+</div>
+
+            </div>
+
+            <footer class="footer">
+    © 2019 Matt Snider
+</footer>
+
+
+        </main>
+    </body>
+</html>
+

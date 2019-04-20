@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vim on Matt Snider</title>
+    <link>https://matt-snider.github.io/tags/vim/</link>
+    <description>Recent content in Vim on Matt Snider</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>© 2019 Matt Snider</copyright>
+    
+	<atom:link href="https://matt-snider.github.io/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Vim TagQuery</title>
+      <link>https://matt-snider.github.io/projects/vim-tagquery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/projects/vim-tagquery/</guid>
+      <description>&lt;p&gt;I use &lt;a href=&#34;https://github.com/vimwiki/vimwiki&#34;&gt;VimWiki&lt;/a&gt; &lt;em&gt;a lot&lt;/em&gt; in my daily life as my &lt;a href=&#34;https://en.wikipedia.org/wiki/Personal_knowledge_base&#34;&gt;personal knowledge base/wiki&lt;/a&gt; and journal. I tag my notes extensively but found the built-in tag search in Vim and VimWiki seriously lacking.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

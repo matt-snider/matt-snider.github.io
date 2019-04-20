@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Matt Snider">
+        <meta name="description" content="https://matt-snider.github.io/">
+        
+        <meta name="generator" content="Hugo 0.54.0" />
+
+        <base href="https://matt-snider.github.io/">
+        <title>Matt Snider</title>
+
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/bootstrap-spacing-utils.css">
+        <link rel="stylesheet" href="/css/milligram.min.css">
+
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    </head>
+    <body>
+        <main class="wrapper">
+            <nav class="navbar">
+    <ul class="nav-list">
+        <li class="nav-item">
+            <a href="/" class="nav-link">
+                Matt Snider
+            </a>
+        </li>
+    </ul>
+
+    <ul class="nav-list">
+        <li class="nav-item">
+            <a href="/about" class="nav-link">
+                About
+            </a>
+        </li>
+
+        
+
+
+        <li class="nav-item">
+            <a href="/projects" class="nav-link">
+                Projects
+            </a>
+        </li>
+    </ul>
+</nav>
+
+
+
+            <div class="content container">
+                
+<div>
+    <h1>Todoist Taskwarrior</h1>
+    <div class="ml-2">
+        <div>
+            <span> Links: </span>
+            <span>
+                
+                    <a href="https://github.com/matt-snider/todoist-taskwarrior">
+                        <code>
+                        GitHub
+                        </code>
+                    </a>
+                
+            </span>
+        </div>
+        <div>
+            <span> Tag: </span>
+            <span>
+                
+                <code>Python</code>
+                
+                <code>Taskwarrior</code>
+                
+                <code>Todoist</code>
+                
+                <code>CLI</code>
+                
+            </span>
+        </div>
+
+        <div class="my-5">
+            <p>I&rsquo;m a big fan of <a href="https://todoist.com/">Todoist</a> for managing my productivity, but I also feel strongly about using <em>open-source</em> and <em>self-hosted</em> tools, where you <em>own your own data</em>. This led me to build a tool to migrate all my tasks from Todoist into Taskwarrior.</p>
+
+<p>The tool is written in Python 3.x and is a <a href="https://github.com/pallets/click">Click</a>-based CLI. It can migrate all tasks at once, or iterate through them prompting the user to modify, skip, etc, along the way.</p>
+
+<p>For example:</p>
+
+<pre><code class="language-sh">$ python -m todoist_taskwarrior.cli migrate --interactive
+Interactively add tasks
+
+y - add task
+n - skip task
+r - rename task
+p - change priority
+t - change tags
+q - quit immediately
+? - print help
+
+Task 1 of 315: Work on an open source project
+
+tid: 142424242
+name: Work on an open source project
+project: Open Source
+priority:
+tags:
+entry: 2019-01-18T12:00:00+00:00
+due: 2019-01-21T17:00:00+00:00
+recur: 3 days
+
+Import this task? (y, n, r, t, p, q, ?):
+</code></pre>
+
+        </div>
+    </div>
+</div>
+
+            </div>
+
+            <footer class="footer">
+    © 2019 Matt Snider
+</footer>
+
+
+        </main>
+    </body>
+</html>
+

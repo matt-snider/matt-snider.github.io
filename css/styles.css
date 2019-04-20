@@ -1,0 +1,156 @@
+/**
+ * General
+ */
+body {
+    font-family: "Fira Mono", monospace;
+
+    color: #323232;
+    background-color: #fefefe;
+
+    margin: 0;
+}
+
+
+a {
+    transition: color .4s;
+    color: #265C83;
+    text-decoration: underline;
+}
+
+a:link,
+a:visited {
+    color: #265c83;
+}
+
+a:hover {
+    color: #7fdbff;
+}
+
+a:active  {
+    transition: color .3s;
+    color: #007be6;
+}
+
+.feather {
+    width: 24px;
+    height: 24px;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+}
+
+/**
+ * Spacing utilities
+ */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.content {
+    flex-grow: 1;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    flex-shrink: 1;
+    text-align: center;
+}
+
+/**
+ * Intro
+ */
+.intro {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro h1, .intro h2, .intro h3, .intro h4, .intro h5, .intro h6 {
+    margin-top: 0.5rem;
+}
+
+.intro-summary {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.face {
+    height: 250px;
+    border: 1px solid #dee2e6;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+/**
+ * Social
+ */
+.social-link, .social-link:hover {
+    text-decoration: none;
+}
+
+.social-link:hover {
+    opacity: 0.75;
+}
+
+
+/**
+ * Navigation
+ */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+
+    border-bottom: 1px solid black;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+}
+
+.nav-item {
+    padding: 0 5px;
+    display: inline-block;
+}
+
+.nav-link {
+    font-size: 1.75em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+a.nav-link:hover {
+    text-decoration: underline;
+}
+
+/**
+ * Skills Table
+ */
+.skills-table th,
+.skills-table td {
+    padding: 0.8rem 1.0rem;
+}
+
+.skills-table .note {
+    font-size: 0.65em;
+}
+
+/**
+ * Project-specific
+ */
+
+img[alt=vue-guitar-chords-image] {
+    width: 250px;
+}
