@@ -11,7 +11,7 @@
     
     
     <item>
-      <title>Angularjs</title>
+      <title>AngularJS</title>
       <link>https://matt-snider.github.io/tags/angularjs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -20,7 +20,7 @@
     </item>
     
     <item>
-      <title>Cli</title>
+      <title>CLI</title>
       <link>https://matt-snider.github.io/tags/cli/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -83,7 +83,7 @@
     </item>
     
     <item>
-      <title>Postgresql</title>
+      <title>PostgreSQL</title>
       <link>https://matt-snider.github.io/tags/postgresql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -110,7 +110,7 @@
     </item>
     
     <item>
-      <title>Repl</title>
+      <title>REPL</title>
       <link>https://matt-snider.github.io/tags/repl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -128,20 +128,20 @@
     </item>
     
     <item>
+      <title>SOCKS5</title>
+      <link>https://matt-snider.github.io/tags/socks5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/tags/socks5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Servant</title>
       <link>https://matt-snider.github.io/tags/servant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/tags/servant/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Socks5</title>
-      <link>https://matt-snider.github.io/tags/socks5/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matt-snider.github.io/tags/socks5/</guid>
       <description></description>
     </item>
     
@@ -173,7 +173,7 @@
     </item>
     
     <item>
-      <title>Vimwiki</title>
+      <title>VimWiki</title>
       <link>https://matt-snider.github.io/tags/vimwiki/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

@@ -48,12 +48,12 @@
   </url>
   
   <url>
-    <loc>https://matt-snider.github.io/categories/</loc>
+    <loc>https://matt-snider.github.io/tags/cli/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://matt-snider.github.io/tags/cli/</loc>
+    <loc>https://matt-snider.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
@@ -122,12 +122,12 @@
   </url>
   
   <url>
-    <loc>https://matt-snider.github.io/tags/servant/</loc>
+    <loc>https://matt-snider.github.io/tags/socks5/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://matt-snider.github.io/tags/socks5/</loc>
+    <loc>https://matt-snider.github.io/tags/servant/</loc>
     <priority>0</priority>
   </url>
   
