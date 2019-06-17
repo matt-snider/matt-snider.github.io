@@ -10,5 +10,10 @@ copyright = "© 2019 Matt Snider"
     github_url  = "https://github.com/matt-snider"
     gitlab_url  = "https://gitlab.com/matt-snider"
     keybase_url = "https://keybase.io/mattsnider"
-    email_url   = "mailto:[myfirstname].[mylastname]@protonmail.com"
+    personal_url= "https://matt-snider.xyz"
+
+    # Usually don't want to specify these
+    email       = "[myfirstname].[mylastname]@protonmail.com"
+    phone       = ""
+    address     = ""
 

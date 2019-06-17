@@ -1,0 +1,12 @@
+# This is a sample file that can be used to specify values that you don't
+# want exposed on the internet. Additional config files can be specified
+# comma-delimited on the command line with the `--config` option.
+#
+# e.g. hugo --config config.toml,private.toml [...]
+
+[params]
+    [params.social]
+    email       = ""
+    phone       = ""
+    address     = ""
+

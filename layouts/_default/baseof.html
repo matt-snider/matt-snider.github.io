@@ -19,7 +19,9 @@
     </head>
     <body>
         <main class="wrapper">
-            {{ partial "header.html" . }}
+            {{ if ne .Type "resume" }}
+                {{ partial "header.html" . }}
+            {{ end }}
 
             <div class="content container">
                 {{ block "content" . }}

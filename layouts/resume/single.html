@@ -1,0 +1,74 @@
+{{ define "content" }}
+<div class="resume">
+    <div class="row summary">
+        <div class="column column-20">
+            <img class="face" src="images/face.png" alt="photo">
+        </div>
+        <div class="column column-80">
+            <h3 class="name"> {{ .Site.Params.full_name }} </h3>
+            <h5 class="job-title"> {{ .Site.Params.job_title }}</h5>
+
+            <div class="contact">
+                {{ with .Site.Params.social.address }}
+                <div>
+                    <img src="icons/map-pin.svg" class="icon">
+                    <span> {{ . }} </span>
+                </div>
+                {{ end }}
+
+                {{ with .Site.Params.social.phone }}
+                <div>
+                    <img src="icons/phone.svg" class="icon">
+                    <span> {{ . }} </span>
+                </div>
+                {{ end }}
+
+                {{ with .Site.Params.social.email }}
+                <a href="{{ . }}" class="social-link">
+                    <img src="icons/mail.svg" class="icon">
+                    <span> {{ . }} </span>
+                </a>
+                {{ end }}
+
+                {{ with .Site.Params.social.personal_url }}
+                <a href="{{ . }}" class="social-link">
+                    <img src="icons/globe.svg" class="icon">
+                    <span> {{ . }} </span>
+                </a>
+                {{ end }}
+
+                {{ with .Site.Params.social.github_url }}
+                <a href="{{ . }}" class="social-link">
+                    <img src="icons/github.svg" class="icon">
+                    <span> {{ . }} </span>
+                </a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="details">
+            <div class="my-3">
+                <h3> Education </h3>
+
+                <div>
+                    {{ range where .Site.RegularPages "Type" "education" }}
+                        {{ .Render "single" }}
+                    {{ end }}
+                </div>
+            </div>
+
+            <div class="my-3">
+                <h3> Work Experience </h3>
+
+                <div>
+                    {{ range $.Site.Data.work }}
+                       {{ partial "work.html" . }}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
