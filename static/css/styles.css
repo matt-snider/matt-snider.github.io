@@ -136,6 +136,19 @@ a.nav-link:hover {
 }
 
 /**
+ * Education
+ */
+
+.education-entry .institution {
+    font-weight: bold;
+}
+
+.education-entry .degree {
+    font-style: italic;
+}
+
+
+/**
  * Skills Table
  */
 .skills-table th,

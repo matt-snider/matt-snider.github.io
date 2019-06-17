@@ -25,6 +25,18 @@
     </div>
 </div>
 
+
+<div class="my-3">
+    <h3> Education </h3>
+
+    <div>
+        {{ range where .Site.RegularPages "Type" "education" }}
+            {{ .Render "single" }}
+        {{ end }}
+    </div>
+</div>
+
+
 <div class="my-3">
     <h3> Natural Languages </h3>
 

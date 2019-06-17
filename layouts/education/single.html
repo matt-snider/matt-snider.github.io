@@ -1,0 +1,20 @@
+<div class="education-entry">
+    <div class="row">
+        <div class="column column-75">
+            <div class="institution"> {{ .Params.institution }} </div>
+            <div class="degree"> {{ .Params.degree }} </div>
+            <div class="description">
+                {{ .Content | markdownify }}
+            </div>
+        </div>
+
+        <div class="column column-25 clearfix">
+            <span class="float-right">
+                <span>{{ .Params.date_start }}</span>
+                <span>-</span>
+                <span>{{ default "ongoing" .Params.date_end }}</span>
+            </span>
+        </div>
+    </div>
+    <hr/>
+</div>
