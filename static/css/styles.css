@@ -31,6 +31,10 @@ a:active  {
     color: #007be6;
 }
 
+hr {
+    margin: 1.5rem 0;
+}
+
 .feather {
     width: 24px;
     height: 24px;
@@ -60,6 +64,10 @@ a:active  {
 .footer {
     flex-shrink: 1;
     text-align: center;
+}
+
+.ml-neg-1 {
+    margin-left: -0.25rem !important;
 }
 
 /**
@@ -177,6 +185,7 @@ a.nav-link:hover {
 .skills-table .note {
     font-size: 0.65em;
 }
+
 
 /**
  * Project-specific

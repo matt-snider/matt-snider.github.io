@@ -1,5 +1,5 @@
 # Überschriften
-[skills]
+[skills_header]
 other = "Programmiersprachen/Frameworks"
 
 [work_experience_header]
@@ -8,7 +8,7 @@ other = "Berufserfahrung"
 [education_header]
 other = "Ausbildung"
 
-[natural_languages]
+[natural_languages_header]
 other = "Natürliche Sprachen"
 
 
@@ -52,3 +52,7 @@ other = "Muttersprache"
 [proficient]
 other = "verhandlungssicher"
 
+
+# Misc
+[ongoing]
+other = "bis dato"

@@ -40,8 +40,8 @@
     <h3> {{ i18n "work_experience_header" }} </h3>
 
     <div>
-        {{ range $.Site.Data.work }}
-           {{ partial "work.html" . }}
+        {{ range (where ($pages.ByParam "date_end").Reverse "Type" "work") }}
+            {{ .Render "single" }}
         {{ end }}
     </div>
 </div>

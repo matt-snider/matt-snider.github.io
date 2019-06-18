@@ -69,3 +69,8 @@ other = "HSK5"
 
 [hsk6]
 other = "HSK6"
+
+
+# Misc
+[ongoing]
+other = "ongoing"
