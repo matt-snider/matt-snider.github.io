@@ -1,4 +1,25 @@
 {{ define "content" }}
+
+{{/* Merge translated pages so we fall back to English */}}
+{{ $pages := .Site.RegularPages }}
+{{ range .Site.Home.Translations }}
+    {{ $pages = $pages | lang.Merge .Site.RegularPages }}
+{{ end }}
+
+{{/* Merge tags so we fall back to English */}}
+{{ $tags := newScratch }}
+{{ range $tag, $value := .Site.Taxonomies.tags }}
+    {{ $tags.Set $tag $value.Pages }}
+{{ end }}
+
+{{ range .Site.Home.Translations }}
+    {{ range $tag, $value := .Site.Taxonomies.tags }}
+        {{ $pages := $value.Pages | lang.Merge ($tags.Get $tag) }}
+        {{ $tags.Set $tag $pages }}
+    {{ end }}
+{{ end }}
+
+
 <div class="resume">
     <div class="row summary">
         <div class="column column-20">
@@ -50,20 +71,33 @@
     <div class="row">
         <div class="details">
             <div class="my-3">
-                <h3> Education </h3>
+                <h3> {{ i18n "education_header" }} </h3>
 
                 <div>
-                    {{ range where .Site.RegularPages "Type" "education" }}
+                    {{ range where $pages "Type" "education" }}
                         {{ .Render "single" }}
                     {{ end }}
                 </div>
             </div>
 
             <div class="my-3">
-                <h3> Work Experience </h3>
+                <h3> {{ i18n "work_experience_header" }} </h3>
 
                 <div>
-                    {{ range $.Site.Data.work }}
+                    {{ range (where ($pages.ByParam "date_end").Reverse "Type" "work") }}
+                        {{ .Render "single" }}
+                    {{ end }}
+                </div>
+            </div>
+
+            <div class="my-3">
+                <h3> {{ i18n "natural_languages_header" }} </h3>
+
+                <div class="my-3">
+                    {{ range $.Site.Data.skills.natural_languages }}
+                        {{ if ne .lang "zh" }}
+                           {{ partial "natural-languages.html" . }}
+                        {{ end }}
                     {{ end }}
                 </div>
             </div>
@@ -71,3 +105,4 @@
     </div>
 </div>
 {{ end }}
+
