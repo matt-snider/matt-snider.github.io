@@ -1,6 +1,6 @@
 ---
 company: Ceridian Dayforce
-position: Software-Entwickler, Umsetzungsberater-Tools
+position: Software-Entwickler
 
 location: Toronto, Kanada
 

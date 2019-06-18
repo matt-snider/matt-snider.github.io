@@ -1,6 +1,6 @@
 ---
 company: Ceridian Dayforce
-position: Software Developer, Implementation Tools
+position: Software Developer
 
 location: Toronto, Canada
 
@@ -24,5 +24,5 @@ technologies:
     - Apache ANT
 ---
 * Spearheaded the development of a new internal toolset for implementation consultants to accelerate the implementation cycle 
-* Built GUIs with C#/WPF, Java/JavaFX/Swing to interface with the C# WebAPI Backend
+* The toolset consisted of GUIs built with C#/WPF & Java/JavaFX/Swing, and a C# WebAPI Backend
 

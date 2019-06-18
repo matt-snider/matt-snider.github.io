@@ -33,3 +33,15 @@ After that, any time the current directory is `public/` commits will be made to 
 
 Simply run the `publish.sh` script to deploy.
 
+
+## Resume
+
+A resume for A4 size paper can be generated using the same information listed in the `/about` page. Generally a resume will include contact info that you most likely wouldn't expose online. Such info should be stored in `private.toml` which should not be committed (see `.gitignore`). A sample file is already present in the repository.
+
+Once the private variables are set, run:
+
+```sh
+$ hugo --config config.toml,private.toml server
+```
+
+Now visit `/resume` and `/de/resume`, and print the PDFs as desired. Currently this works well in Firefox, but other browsers may render it differently.
