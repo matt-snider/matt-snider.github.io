@@ -1,0 +1,115 @@
+/**
+ * Page overrides
+ */
+html {
+    font-size: 50% !important;
+}
+
+body {
+    background: rgb(204,204,204); 
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    display: none;
+}
+
+.container.content {
+    width: 210mm;
+    height: 297mm;
+    margin: 0 auto;
+    margin-bottom: 5mm;
+    margin-top: 5mm;
+    max-width: unset;
+    padding: 2.5em;
+
+    background: white;
+    box-shadow: 0 0 5mm rgba(0,0,0,0.5);
+}
+
+.row {
+    margin-left: unset;
+    width: unset;
+}
+
+.ml-neg-1 {
+    margin-left: 0 !important;
+}
+
+.work-entry .details {
+    margin-left: 1.5rem;
+}
+
+.work-entry .details ul {
+    margin-bottom: 0;
+}
+
+.work-entry .details li {
+    margin-bottom: 0;
+}
+
+/**
+ * Print styles
+ */
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+    .container.content {
+        margin: 0;
+        box-shadow: 0;
+    }
+}
+
+/**
+ * Resume styles
+ */
+
+.resume .summary {
+    border-bottom: solid #dee2e6 2px;
+}
+
+.resume .summary .face {
+    width: 125px;
+    height: auto;
+
+    border: 1px solid #dee2e6;
+    border-radius: unset;
+    padding: 2px;
+    margin-left: 10%;
+}
+
+.resume .summary .name {
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.resume .summary .job-title {
+    font-style: italic;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.resume a {
+    text-decoration: none;
+    color: black;
+}
+
+.resume .contact {
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+
+.resume .contact .icon {
+    height: 20px;
+    margin-bottom: -3px;
+}
+
+.resume .contact .social-link {
+    display: block;
+}

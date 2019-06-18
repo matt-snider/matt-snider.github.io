@@ -1,6 +1,6 @@
 <div class="work-entry">
     <div class="row">
-        <div class="column column-75">
+        <div class="column column-70">
             <div>
                 <b>{{ .Params.company }}</b>
             </div>
@@ -9,7 +9,7 @@
             </div>
         </div>
 
-        <div class="column column-25 clearfix">
+        <div class="column column-30 clearfix">
             <span class="float-right">{{ .Params.location }}</span>
             <span class="clearfix"></span>
             <span class="float-right">
@@ -20,11 +20,11 @@
         </div>
     </div>
 
-    <div>
+    <div class="details">
         <div class="mt-3">
            {{- .Content | markdownify -}}
         </div>
-        <div class="mt-2 ml-neg-1">
+        <div class="mt-4 ml-neg-1">
             {{ range .Params.technologies }}
                 <code>{{ . }}</code>
             {{ end }}

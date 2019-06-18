@@ -1,3 +1,7 @@
+{{ define "head" }}
+<link rel="stylesheet" href="/css/resume.css">
+{{ end }}
+
 {{ define "content" }}
 
 {{/* Merge translated pages so we fall back to English */}}
@@ -22,11 +26,11 @@
 
 <div class="resume">
     <div class="row summary">
-        <div class="column column-20">
+        <div class="column column-25">
             <img class="face" src="images/face.png" alt="photo">
         </div>
-        <div class="column column-80">
-            <h3 class="name"> {{ .Site.Params.full_name }} </h3>
+        <div class="column column-75">
+            <h4 class="name"> {{ .Site.Params.full_name }} </h4>
             <h5 class="job-title"> {{ .Site.Params.job_title }}</h5>
 
             <div class="contact">
