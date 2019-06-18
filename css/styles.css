@@ -31,6 +31,10 @@ a:active  {
     color: #007be6;
 }
 
+hr {
+    margin: 1.5rem 0;
+}
+
 .feather {
     width: 24px;
     height: 24px;
@@ -60,6 +64,10 @@ a:active  {
 .footer {
     flex-shrink: 1;
     text-align: center;
+}
+
+.ml-neg-1 {
+    margin-left: -0.25rem !important;
 }
 
 /**
@@ -121,6 +129,7 @@ a:active  {
 .nav-item {
     padding: 0 5px;
     display: inline-block;
+    margin-bottom: 0;
 }
 
 .nav-link {
@@ -130,10 +139,40 @@ a:active  {
     text-decoration: none;
 }
 
-
 a.nav-link:hover {
     text-decoration: underline;
 }
+
+.nav-list.languages {
+    padding: 0;
+}
+
+.lang {
+    display: inline-block;
+}
+
+.lang a.active {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.lang a.active:hover {
+    color: unset;
+}
+
+
+/**
+ * Education
+ */
+
+.education-entry .institution {
+    font-weight: bold;
+}
+
+.education-entry .degree {
+    font-style: italic;
+}
+
 
 /**
  * Skills Table
@@ -147,6 +186,7 @@ a.nav-link:hover {
     font-size: 0.65em;
 }
 
+
 /**
  * Project-specific
  */
@@ -154,3 +194,4 @@ a.nav-link:hover {
 img[alt=vue-guitar-chords-image] {
     width: 250px;
 }
+

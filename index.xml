@@ -98,6 +98,42 @@ There is also a basic demo here.</description>
     
     <item>
       <title></title>
+      <link>https://matt-snider.github.io/education/university-of-toronto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/education/university-of-toronto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://matt-snider.github.io/work/ceridian-dayforce/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/work/ceridian-dayforce/</guid>
+      <description> Spearheaded the development of a new internal toolset for implementation consultants to accelerate the implementation cycle The toolset consisted of GUIs built with C#/WPF &amp;amp; Java/JavaFX/Swing, and a C# WebAPI Backend  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://matt-snider.github.io/work/fresh-city-farms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/work/fresh-city-farms/</guid>
+      <description> Development of new features and maintenance of existing code for Toronto-based eCommerce platform Ongoing frontend modernization &amp;amp; migration from jQuery to VueJS  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://matt-snider.github.io/work/surf-media-gmbh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/work/surf-media-gmbh/</guid>
+      <description> Designed, implemented and tested web services for an advertising performance network in a Deis-based microservices architecture REST APIs and message consumers using Java/Dropwizard and Python/Flask/DRF AngularJS-based frontend Developed a SOCKS5 proxy server to interface with devices as part of our automated ad-testing infrastructure Mentored more junior coworkers through pair programming &amp;amp; code reviews  </description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
       <link>https://matt-snider.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -105,6 +141,15 @@ There is also a basic demo here.</description>
       <description>I&amp;rsquo;m a software engineer with over 5 years of professional experience. I mostly work on web applications (frontend &amp;amp; backend), but enjoy learning new things and am open to working in other domains.
 I was born and raised in Toronto, but I&amp;rsquo;ve been living in Bremen, Germany for the last several years.
 Currently, I most enjoy writing software using Python, Haskell, Rust, and React. I&amp;rsquo;m very interested in trying out Erlang/Elixir and Purescript.</description>
+    </item>
+    
+    <item>
+      <title>Matt Snider - Resume</title>
+      <link>https://matt-snider.github.io/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/resume/</guid>
+      <description></description>
     </item>
     
   </channel>

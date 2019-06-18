@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://matt-snider.github.io/projects/todoist-taskwarrior/</loc>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/projects/vim-tagquery/</loc>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/projects/open-gift-exchange/</loc>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/projects/dict-cc/</loc>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/projects/angularjs-bootstrap/</loc>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/projects/socks5/</loc>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/projects/vue-guitar-chords/</loc>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/projects/work-journal/</loc>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/projects/monkeylang/</loc>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/education/university-of-toronto/</loc>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/work/ceridian-dayforce/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/work/ceridian-dayforce/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/work/ceridian-dayforce/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/work/fresh-city-farms/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/work/fresh-city-farms/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/work/fresh-city-farms/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/work/surf-media-gmbh/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/work/surf-media-gmbh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/work/surf-media-gmbh/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/tags/angularjs/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/tags/cli/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/education/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/tags/elm/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/tags/go/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/tags/haskell/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/tags/interpreter/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/tags/javascript/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/resume/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/resume/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/resume/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/projects/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/projects/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/tags/parser/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/tags/postgresql/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/tags/proxy/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/tags/python/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/tags/repl/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/tags/rust/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/tags/socks5/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/tags/servant/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/tags/taskwarrior/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/tags/todoist/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/tags/vim/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/tags/vimwiki/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/tags/vue/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/work/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/work/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/work/"
+                />
+  </url>
+  
+</urlset>
