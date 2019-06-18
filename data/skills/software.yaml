@@ -1,0 +1,55 @@
+# Software skills
+#
+# Each entry represents a skill. Rate from 1 - 4, corresponding to the definitions below.
+#
+
+levels:
+    1: beginner
+    2: intermediate
+    3: advanced
+    4: expert
+
+entries:
+    # Programming Languages
+    - name: Python
+      level: 3
+
+    - name: Java
+      level: 3
+
+    - name: Javascript
+      level: 3
+
+    - name: PHP
+      level: 2
+
+    - name: Rust
+      level: 2
+      note: currently_learning
+
+    - name: Haskell
+      level: 1
+      note: currently_learning
+
+    - name: Go
+      level: 1
+
+
+    # Programming Languages - Out of practice
+    - name: C#
+      level: 1
+      note: not_recently_used
+
+    - name: C
+      level: 1
+      note: not_recently_used
+
+    # Frontend Frameworks
+    - name: AngularJS
+      level: 3
+
+    - name: React
+      level: 3
+
+    - name: Vue
+      level: 3

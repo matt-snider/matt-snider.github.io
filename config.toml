@@ -17,3 +17,24 @@ copyright = "© 2019 Matt Snider"
     phone       = ""
     address     = ""
 
+    [params.navigation]
+    about    = "About"
+    projects = "Projects"
+
+[languages]
+
+    [languages.en]
+    weight = 1
+    languageName = "English"
+
+    [languages.de]
+    weight = 2
+    languageName = "Deutsch"
+
+        [languages.de.params]
+        job_title = "Software-Entwickler"
+
+            [languages.de.params.navigation]
+            about    = "About"
+            projects = "Projekte"
+

@@ -121,6 +121,7 @@ a:active  {
 .nav-item {
     padding: 0 5px;
     display: inline-block;
+    margin-bottom: 0;
 }
 
 .nav-link {
@@ -130,10 +131,27 @@ a:active  {
     text-decoration: none;
 }
 
-
 a.nav-link:hover {
     text-decoration: underline;
 }
+
+.nav-list.languages {
+    padding: 0;
+}
+
+.lang {
+    display: inline-block;
+}
+
+.lang a.active {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.lang a.active:hover {
+    color: unset;
+}
+
 
 /**
  * Education

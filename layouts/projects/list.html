@@ -1,4 +1,11 @@
 {{ define "content" }}
+{{/* Merge translated pages so we fall back to English for /about */}}
+{{ $pages := .Site.RegularPages }}
+{{ range .Site.Home.Translations }}
+    {{ $pages = $pages | lang.Merge .Site.RegularPages }}
+{{ end }}
+{{ $pages := where $pages "Type" "projects" }}
+
 <div>
     <header>
         <h1> {{ .Title }} </h1>
@@ -7,7 +14,7 @@
 
     <div>
         <hr>
-        {{ range .Paginator.Pages }}
+        {{ range $pages }}
         <article>
             <div class="row">
                 <div class="column column-60">

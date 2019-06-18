@@ -1,0 +1,71 @@
+# Headings
+[skills_header]
+other = "Programming Languages/Frameworks"
+
+[work_experience_header]
+other = "Work Experience"
+
+[education_header]
+other = "Education"
+
+[natural_languages_header]
+other = "Natural Languages"
+
+
+# Proficiency levels
+[beginner]
+other = "Beginner"
+
+[intermediate]
+other = "Intermediate"
+
+[advanced]
+other = "Advanced"
+
+[expert]
+other = "Expert"
+
+
+# Proficiency level notes
+[currently_learning]
+other = "currently learning "
+
+[not_recently_used]
+other = "not recently used"
+
+
+# Languages
+[en]
+other = "English"
+
+[de]
+other = "German"
+
+[zh]
+other = "Chinese"
+
+
+# Language levels
+[native]
+other = "native"
+
+[proficient]
+other = "proficient"
+
+[hsk1]
+other = "HSK1"
+
+[hsk2]
+other = "HSK2"
+
+[hsk3]
+other = "HSK3"
+
+[hsk4]
+other = "HSK4"
+
+[hsk5]
+other = "HSK5"
+
+[hsk6]
+other = "HSK6"

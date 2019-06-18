@@ -5,21 +5,21 @@
             <th scope="col">Level</th>
             <th scope="col">Projects</th>
         </tr>
-        {{ range sort .skills "level" "desc" }}
+        {{ range sort $.skills.entries "level" "desc" }}
             {{ $tag   := lower .name }}
             {{ $level := string .level }}
 
             <tr>
                 <td> {{ .name }} </td>
                 <td>
-                    <div class="level"> {{ index $.levels $level }} </div>
+                    <div class="level"> {{ i18n (index $.skills.levels $level) }} </div>
 
                     {{ with .note }}
-                    <div class="note"> ({{ . }}) </div>
+                    <div class="note"> ({{ i18n . }}) </div>
                     {{ end }}
                 </td>
                 <td>
-                    {{ range (index $.tags $tag).Pages.ByWeight }}
+                    {{ range ($.tags.Get $tag).ByWeight }}
                     <div>
                         <a href="{{ .RelPermalink }}">{{- .Title -}}</a>
                     </div>

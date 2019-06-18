@@ -1,6 +1,27 @@
 {{ define "content" }}
+
+{{/* Merge translated pages so we fall back to English for /about */}}
+{{ $pages := .Site.RegularPages }}
+{{ range .Site.Home.Translations }}
+    {{ $pages = $pages | lang.Merge .Site.RegularPages }}
+{{ end }}
+
+{{/* Merge tags so we fall back to English for /about */}}
+{{ $tags := newScratch }}
+{{ range $tag, $value := .Site.Taxonomies.tags }}
+    {{ $tags.Set $tag $value.Pages }}
+{{ end }}
+
+{{ range .Site.Home.Translations }}
+    {{ range $tag, $value := .Site.Taxonomies.tags }}
+        {{ $pages := $value.Pages | lang.Merge ($tags.Get $tag) }}
+        {{ $tags.Set $tag $pages }}
+    {{ end }}
+{{ end }}
+
+
 <div class="my-3">
-    <h2> About Me </h2>
+    <h2> {{ .Title }} </h2>
 
     <div class="my-3">
         {{ .Content | markdownify }}
@@ -8,15 +29,15 @@
 </div>
 
 <div class="my-3">
-    <h3> Skills </h3>
+    <h3> {{ i18n "skills_header" }} </h3>
 
     <div>
-       {{ partial "skills-table.html" (dict "levels" $.Site.Data.skills.technologies.levels "skills" $.Site.Data.skills.technologies.entries "tags" $.Site.Taxonomies.tags) }}
+       {{ partial "skills-table.html" (dict "skills" $.Site.Data.skills.software "tags" $tags) }}
     </div>
 </div>
 
 <div class="my-3">
-    <h3> Work Experience </h3>
+    <h3> {{ i18n "work_experience_header" }} </h3>
 
     <div>
         {{ range $.Site.Data.work }}
@@ -27,10 +48,10 @@
 
 
 <div class="my-3">
-    <h3> Education </h3>
+    <h3> {{ i18n "education_header" }} </h3>
 
     <div>
-        {{ range where .Site.RegularPages "Type" "education" }}
+        {{ range where $pages "Type" "education" }}
             {{ .Render "single" }}
         {{ end }}
     </div>
@@ -38,7 +59,7 @@
 
 
 <div class="my-3">
-    <h3> Natural Languages </h3>
+    <h3> {{ i18n "natural_languages_header" }} </h3>
 
     <div class="my-3">
         {{ range $.Site.Data.skills.natural_languages }}
