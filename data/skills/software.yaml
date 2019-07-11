@@ -24,7 +24,7 @@ entries:
       level: 2
 
     - name: Rust
-      level: 2
+      level: 1
       note: currently_learning
 
     - name: Haskell
