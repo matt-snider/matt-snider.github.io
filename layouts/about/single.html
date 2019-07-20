@@ -29,14 +29,6 @@
 </div>
 
 <div class="my-3">
-    <h3> {{ i18n "skills_header" }} </h3>
-
-    <div>
-       {{ partial "skills-table.html" (dict "skills" $.Site.Data.skills.software "tags" $tags) }}
-    </div>
-</div>
-
-<div class="my-3">
     <h3> {{ i18n "work_experience_header" }} </h3>
 
     <div>
@@ -46,6 +38,13 @@
     </div>
 </div>
 
+<div class="my-3">
+    <h3> {{ i18n "skills_header" }} </h3>
+
+    <div>
+       {{ partial "skills-table.html" (dict "skills" $.Site.Data.skills.software "tags" $tags) }}
+    </div>
+</div>
 
 <div class="my-3">
     <h3> {{ i18n "education_header" }} </h3>
