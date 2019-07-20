@@ -29,9 +29,11 @@ Interactively add tasks
 
 y - add task
 n - skip task
-r - rename task
+d - change description
+P - change project
 p - change priority
 t - change tags
+r - change recur
 q - quit immediately
 ? - print help
 
