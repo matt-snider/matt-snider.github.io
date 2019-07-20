@@ -100,9 +100,11 @@
         </div>
 
         <div class="my-5">
-            <p>I&rsquo;m a big fan of <a href="https://todoist.com/">Todoist</a> for managing my productivity, but I also feel strongly about using open-source and self-hosted tools, where you own your own data. This led me to build a tool to migrate all my tasks from Todoist into Taskwarrior.</p>
+            <p>I think <a href="https://todoist.com/">Todoist</a> is a fantastic productivity app, but I also try to use as many open-source &amp; self-hosted tools as possible. This led me to build a tool to migrate all my tasks from Todoist into Taskwarrior.</p>
 
-<p>The tool is written in Python 3.x and is a <a href="https://github.com/pallets/click">Click</a>-based CLI. It can migrate all tasks at once, or iterate through them prompting the user to modify, skip, etc, along the way.</p>
+<p>It meets those criteria and is also usable as a CLI, <a href="https://en.wikipedia.org/wiki/Text-based_user_interface">TUI</a> (see <a href="https://github.com/scottkosty/vit">vit</a>, <a href="https://github.com/lharding/tasknc">tasknc</a>), and on Android (see <a href="taskwarriorandroid">Taskwarrior Android</a>, <a href="https://github.com/MirakelX/mirakel-android">Mirakel</a>). I also own and have access to <em>all</em> my data. On Todoist I couldn&rsquo;t access my completed tasks, comment on tasks, or set tags, and many other operations. I have a free account so I don&rsquo;t blame them of course. Keep in mind that none of the clients are <em>nearly</em> as nice looking or user-friendly as Todoist, but Taskwarrior has so far been working out very well for me.</p>
+
+<p>The tool is written in Python 3.x and is a <a href="https://github.com/pallets/click">Click</a>-based CLI. It uses the <a href="https://todoist-python.readthedocs.io/en/latest/">todoist-python</a> library to access the <a href="https://developer.todoist.com/sync">Todoist Sync API</a>. To interface with the local Taskwarrior it uses <a href="https://github.com/ralphbean/taskw">taskw</a>. It can migrate all tasks at once, or iterate through them in an interactive manner prompting the user to modify, skip, etc for each task.</p>
 
 <p>For example:</p>
 
@@ -111,9 +113,11 @@ Interactively add tasks
 
 y - add task
 n - skip task
-r - rename task
+d - change description
+P - change project
 p - change priority
 t - change tags
+r - change recur
 q - quit immediately
 ? - print help
 
