@@ -18,7 +18,7 @@ tags:
     - JavaFX
 
     # Databases
-    - Microsoft SQL/TSQL
+    - MS SQL Server
 
     # Tools
     - Apache ANT

@@ -46,7 +46,7 @@
     <h3> {{ i18n "work_experience_header" }} </h3>
 
     <div>
-        {{ range (where ($pages.ByParam "date_end").Reverse "Type" "work") }}
+        {{ range (where ((($pages.ByParam "date_end").Reverse).ByParam "date_start").Reverse "Type" "work") }}
             {{ .Render "single" }}
         {{ end }}
     </div>

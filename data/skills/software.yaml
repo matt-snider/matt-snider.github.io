@@ -13,8 +13,15 @@ entries:
     - name: Go
 
     # Frontend Frameworks
+    - name: Angular
     - name: AngularJS
     - name: Vue
     - name: PHP
     - name: React
+
+    # Databases
+    - name: PostgreSQL
+    - name: Redis
+    - name: RabbitMQ
+    - name: MongoDB
 

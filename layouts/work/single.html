@@ -25,7 +25,7 @@
            {{- .Content | markdownify -}}
         </div>
         <div class="mt-4 ml-neg-1">
-            {{ range .Params.technologies }}
+            {{ range .Params.tags }}
                 <code>{{ . }}</code>
             {{ end }}
         </div>
