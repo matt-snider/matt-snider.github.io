@@ -1,5 +1,5 @@
 ---
-company: Fresh City Farms
+title: Fresh City Farms
 position: Freelancer (Teilzeit)
 
 location: Fernarbeit
@@ -7,7 +7,7 @@ location: Fernarbeit
 date_start: 2018-01-01
 date_end:
 
-technologies:
+tags:
     # Languages
     - PHP
     - Javascript

@@ -1,24 +1,30 @@
 {{ define "content" }}
 
-{{/* Merge translated pages so we fall back to English for /about */}}
+{{/* Merge translated pages so we fall back to English */}}
 {{ $pages := .Site.RegularPages }}
 {{ range .Site.Home.Translations }}
     {{ $pages = $pages | lang.Merge .Site.RegularPages }}
 {{ end }}
 
-{{/* Merge tags so we fall back to English for /about */}}
+{{/* Organize pages by tag, starting with current laguage */}}
 {{ $tags := newScratch }}
 {{ range $tag, $value := .Site.Taxonomies.tags }}
     {{ $tags.Set $tag $value.Pages }}
 {{ end }}
 
+{{/* Fall back to another language if missing */}}
 {{ range .Site.Home.Translations }}
     {{ range $tag, $value := .Site.Taxonomies.tags }}
-        {{ $pages := $value.Pages | lang.Merge ($tags.Get $tag) }}
-        {{ $tags.Set $tag $pages }}
+        {{ $pages := $tags.Get $tag }}
+        {{ $altPages := $value.Pages }}
+
+        {{ if eq $pages nil }}
+            {{ $tags.Set $tag $altPages }}
+        {{ else }}
+            {{ $tags.Set $tag ($pages | lang.Merge $altPages) }}
+        {{ end }}
     {{ end }}
 {{ end }}
-
 
 <div class="my-3">
     <h2> {{ .Title }} </h2>

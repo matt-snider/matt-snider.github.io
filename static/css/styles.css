@@ -180,6 +180,7 @@ a.nav-link:hover {
 .skills-table th,
 .skills-table td {
     padding: 0.8rem 1.0rem;
+    vertical-align: top;
 }
 
 .skills-table .note {

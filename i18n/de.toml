@@ -1,6 +1,6 @@
 # Überschriften
 [skills_header]
-other = "Programmiersprachen/Frameworks"
+other = "Technologien"
 
 [work_experience_header]
 other = "Berufserfahrung"
@@ -10,29 +10,6 @@ other = "Ausbildung"
 
 [natural_languages_header]
 other = "Sprachkenntnisse"
-
-
-# Niveaus
-[beginner]
-other = "Anfänger"
-
-[intermediate]
-other = "Mittelstufe"
-
-[advanced]
-other = "Forgeschrittener"
-
-[expert]
-other = "Expert"
-
-
-# Anmerkungen
-[currently_learning]
-other = "im Lernprozess"
-
-[not_recently_used]
-other = "kürzlich nicht verwendet"
-
 
 # Sprachen
 [en]

@@ -2,27 +2,32 @@
     <table class="skills-table">
         <tr>
             <th scope="col">Name</th>
-            <th scope="col">Level</th>
             <th scope="col">Projects</th>
+            <th scope="col">Work Experience</th>
         </tr>
-        {{ range sort $.skills.entries "level" "desc" }}
+        {{ range $.skills.entries }}
             {{ $tag   := lower .name }}
-            {{ $level := string .level }}
-
+            {{ $pages := $.tags.Get $tag }}
             <tr>
                 <td> {{ .name }} </td>
                 <td>
-                    <div class="level"> {{ i18n (index $.skills.levels $level) }} </div>
-
-                    {{ with .note }}
-                    <div class="note"> ({{ i18n . }}) </div>
+                    {{ range $pages.ByWeight }}
+                        {{ if eq .Dir "projects/" }}
+                        <div>
+                            <a href="{{ .RelPermalink }}">{{- .Title -}}</a>
+                        </div>
+                        {{ end }}
                     {{ end }}
                 </td>
                 <td>
-                    {{ range ($.tags.Get $tag).ByWeight }}
-                    <div>
-                        <a href="{{ .RelPermalink }}">{{- .Title -}}</a>
-                    </div>
+                    {{ range ($pages.ByWeight.ByParam "date_end").Reverse }}
+                        {{ if eq .Dir "work/" }}
+                            <div>
+                                <a href="{{ .RelPermalink }}">
+                                    {{- .Title -}}
+                                </a>
+                            </div>
+                        {{ end }}
                     {{ end }}
                 </td>
             </tr>

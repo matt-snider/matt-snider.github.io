@@ -1,5 +1,5 @@
 ---
-company: Ceridian Dayforce
+title: Ceridian Dayforce
 position: Software-Entwickler
 
 location: Toronto, Kanada
@@ -7,7 +7,7 @@ location: Toronto, Kanada
 date_start: 2013-07-01
 date_end: 2014-08-01
 
-technologies:
+tags:
     # Languages
     - C#
     - Java

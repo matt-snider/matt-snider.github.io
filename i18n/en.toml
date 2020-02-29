@@ -1,6 +1,6 @@
 # Headings
 [skills_header]
-other = "Programming Languages/Frameworks"
+other = "Technologies"
 
 [work_experience_header]
 other = "Work Experience"
@@ -10,29 +10,6 @@ other = "Education"
 
 [natural_languages_header]
 other = "Natural Languages"
-
-
-# Proficiency levels
-[beginner]
-other = "Beginner"
-
-[intermediate]
-other = "Intermediate"
-
-[advanced]
-other = "Advanced"
-
-[expert]
-other = "Expert"
-
-
-# Proficiency level notes
-[currently_learning]
-other = "currently learning "
-
-[not_recently_used]
-other = "not recently used"
-
 
 # Languages
 [en]

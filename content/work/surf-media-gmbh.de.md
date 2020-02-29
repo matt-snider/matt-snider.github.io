@@ -1,5 +1,5 @@
 ---
-company: Surf Media Gmbh
+title: Surf Media Gmbh
 position: Software-Entwickler
 
 location: Bremen, Deutschland
@@ -7,7 +7,7 @@ location: Bremen, Deutschland
 date_start: 2015-04-01
 date_end: 2018-10-01
 
-technologies:
+tags:
     # Languages
     - Java
     - Python
@@ -15,7 +15,8 @@ technologies:
 
     # Frameworks
     - Dropwizard
-    - Django/DRF
+    - Django
+    - Django Rest Framework
     - Tornado
     - Flask
     - AngularJS
