@@ -6,7 +6,7 @@ links:
     - title: GitHub
       href: https://github.com/matt-snider/monkeylang
 
-tags: 
+tags:
     - Go
     - REPL
     - Parser

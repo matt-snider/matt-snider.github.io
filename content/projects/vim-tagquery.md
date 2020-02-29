@@ -8,7 +8,7 @@ links:
     - title: GitHub (vim-tagquery)
       href: https://github.com/matt-snider/vim-tagquery
 
-tags: 
+tags:
     - Rust
     - Vim
     - VimWiki

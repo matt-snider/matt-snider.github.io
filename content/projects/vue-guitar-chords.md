@@ -9,7 +9,7 @@ links:
     - title: Demo
       href: https://matt-snider.github.io/vue-guitar-chords
 
-tags: 
+tags:
     - Vue
     - Javascript
 ---

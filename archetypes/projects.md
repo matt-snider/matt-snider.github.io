@@ -6,7 +6,7 @@ links:
     - title: GitHub
       href: https://github.com/matt-snider/{{.Name}}
 
-tags: 
+tags:
     - LangugageX
     - TechnologyY
 

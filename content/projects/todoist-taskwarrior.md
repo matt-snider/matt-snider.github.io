@@ -6,7 +6,7 @@ links:
     - title: GitHub
       href: https://github.com/matt-snider/todoist-taskwarrior
 
-tags: 
+tags:
     - Python
     - Taskwarrior
     - Todoist

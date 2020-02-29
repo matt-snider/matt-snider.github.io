@@ -6,7 +6,7 @@ links:
     - title: GitHub
       href: https://github.com/matt-snider/dict.cc
 
-tags: 
+tags:
     - Haskell
     - CLI
 ---

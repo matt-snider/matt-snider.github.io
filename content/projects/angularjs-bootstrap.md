@@ -9,7 +9,7 @@ links:
     - title: Project Docs
       href: https://matt-snider.github.io/angularjs-bootstrap/
 
-tags: 
+tags:
     - AngularJS
     - Javascript
 ---

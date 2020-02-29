@@ -6,7 +6,7 @@ links:
     - title: GitHub
       href: https://github.com/matt-snider/open-gift-exchange
 
-tags: 
+tags:
     - Haskell
     - Servant
 ---

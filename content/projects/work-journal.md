@@ -6,7 +6,7 @@ links:
     - title: GitHub
       href: https://github.com/matt-snider/work-journal
 
-tags: 
+tags:
     - Elm
     - PostgreSQL
 ---

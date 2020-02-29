@@ -6,7 +6,7 @@ links:
     - title: GitHub
       href: https://github.com/matt-snider/socks5
 
-tags: 
+tags:
     - Python
     - SOCKS5
     - Proxy
