@@ -29,21 +29,21 @@
     </item>
     
     <item>
-      <title>Open Gift Exchange</title>
-      <link>https://matt-snider.github.io/projects/open-gift-exchange/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matt-snider.github.io/projects/open-gift-exchange/</guid>
-      <description>&lt;p&gt;This is very much a WIP and I haven&amp;rsquo;t had much time for it lately, but the idea is to build an open-source solution for doing gift exchanges (e.g. &lt;em&gt;Secret Santa&lt;/em&gt;). This was motivated by using other &amp;ldquo;free&amp;rdquo; gift exchange web apps and seeing how much advertising &amp;amp; personal data harvesting was going on. I also wanted to learn more about Haskell and &lt;a href=&#34;https://github.com/haskell-servant/servant&#34;&gt;Servant&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>dict.cc CLI Client</title>
       <link>https://matt-snider.github.io/projects/dict-cc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/projects/dict-cc/</guid>
       <description>&lt;p&gt;I started this project while learning German so I was using &lt;a href=&#34;https://www.dict.cc/&#34;&gt;dict.cc&lt;/a&gt; frequently. Being able to run lookups from the terminal instead of having to navigate to the webpage each time was a big boon. I also wanted to improve my knowledge of Haskell so this was a good starting project.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Open Gift Exchange</title>
+      <link>https://matt-snider.github.io/projects/open-gift-exchange/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/projects/open-gift-exchange/</guid>
+      <description>&lt;p&gt;This is very much a WIP and I haven&amp;rsquo;t had much time for it lately, but the idea is to build an open-source solution for doing gift exchanges (e.g. &lt;em&gt;Secret Santa&lt;/em&gt;). This was motivated by using other &amp;ldquo;free&amp;rdquo; gift exchange web apps and seeing how much advertising &amp;amp; personal data harvesting was going on. I also wanted to learn more about Haskell and &lt;a href=&#34;https://github.com/haskell-servant/servant&#34;&gt;Servant&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -55,6 +55,15 @@
       <description>&lt;p&gt;This is a now abandoned attempt at building a Bootstrap4-based component framework for AngularJS.&lt;/p&gt;
 
 &lt;p&gt;At the time, the company where I worked used AngularJS and Bootstrap, but decided against several existing component frameworks for various reasons. I decided it would be fun (and maybe even useful!) to build one myself.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>monkeylang</title>
+      <link>https://matt-snider.github.io/projects/monkeylang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/projects/monkeylang/</guid>
+      <description>&lt;p&gt;This is the code as I follow along with the excellent book &lt;a href=&#34;https://interpreterbook.com/&#34;&gt;&lt;em&gt;Writing an Interpreter in Go&lt;/em&gt;&lt;/a&gt; by Thorsten Ball. The book introduces the reader to the Go programming language and builds an interpreter and REPL for a C-like programming language called &lt;em&gt;monkey&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -88,48 +97,12 @@ There is also a basic demo here.</description>
     </item>
     
     <item>
-      <title>monkeylang</title>
-      <link>https://matt-snider.github.io/projects/monkeylang/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matt-snider.github.io/projects/monkeylang/</guid>
-      <description>&lt;p&gt;This is the code as I follow along with the excellent book &lt;a href=&#34;https://interpreterbook.com/&#34;&gt;&lt;em&gt;Writing an Interpreter in Go&lt;/em&gt;&lt;/a&gt; by Thorsten Ball. The book introduces the reader to the Go programming language and builds an interpreter and REPL for a C-like programming language called &lt;em&gt;monkey&lt;/em&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>https://matt-snider.github.io/education/university-of-toronto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/education/university-of-toronto/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://matt-snider.github.io/work/ceridian-dayforce/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matt-snider.github.io/work/ceridian-dayforce/</guid>
-      <description> Spearheaded the development of a new internal toolset for implementation consultants to accelerate the implementation cycle The toolset consisted of GUIs built with C#/WPF &amp;amp; Java/JavaFX/Swing, and a C# WebAPI Backend  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://matt-snider.github.io/work/fresh-city-farms/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matt-snider.github.io/work/fresh-city-farms/</guid>
-      <description> Development of new features and maintenance of existing code for Toronto-based eCommerce platform Ongoing frontend modernization &amp;amp; migration from jQuery to VueJS  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://matt-snider.github.io/work/surf-media-gmbh/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matt-snider.github.io/work/surf-media-gmbh/</guid>
-      <description> Designed, implemented and tested web services for an advertising performance network in a Deis-based microservices architecture REST APIs and message consumers using Java/Dropwizard and Python/Flask/DRF AngularJS-based frontend Developed a SOCKS5 proxy server to interface with devices as part of our automated ad-testing infrastructure Mentored more junior coworkers through pair programming &amp;amp; code reviews  </description>
     </item>
     
     <item>
@@ -144,12 +117,48 @@ Currently, I most enjoy writing software using Python, Haskell, Rust, and React.
     </item>
     
     <item>
+      <title>Ceridian Dayforce</title>
+      <link>https://matt-snider.github.io/work/ceridian-dayforce/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/work/ceridian-dayforce/</guid>
+      <description> Spearheaded the development of a new internal toolset for implementation consultants to accelerate the implementation cycle The toolset consisted of GUIs built with C#/WPF &amp;amp; Java/JavaFX/Swing, and a C# WebAPI Backend  </description>
+    </item>
+    
+    <item>
+      <title>Dataport AöR</title>
+      <link>https://matt-snider.github.io/work/dataport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/work/dataport/</guid>
+      <description> Full-Stack web development Service Oriented Architecture Service Bus  </description>
+    </item>
+    
+    <item>
+      <title>Fresh City Farms</title>
+      <link>https://matt-snider.github.io/work/fresh-city-farms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/work/fresh-city-farms/</guid>
+      <description> Development of new features and maintenance of existing code for Toronto-based eCommerce platform Ongoing frontend modernization &amp;amp; migration from jQuery to VueJS  </description>
+    </item>
+    
+    <item>
       <title>Matt Snider - Resume</title>
       <link>https://matt-snider.github.io/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/resume/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Surf Media Gmbh</title>
+      <link>https://matt-snider.github.io/work/surf-media-gmbh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/work/surf-media-gmbh/</guid>
+      <description> Designed, implemented and tested web services for an advertising performance network in a Deis-based microservices architecture REST APIs and message consumers using Java/Dropwizard and Python/Flask/DRF AngularJS-based frontend Developed a SOCKS5 proxy server to interface with devices as part of our automated ad-testing infrastructure Mentored more junior coworkers through pair programming &amp;amp; code reviews  </description>
     </item>
     
   </channel>

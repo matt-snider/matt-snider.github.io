@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microsoft SQL/TSQL on Matt Snider</title>
+    <link>https://matt-snider.github.io/de/tags/microsoft-sql/tsql/</link>
+    <description>Recent content in Microsoft SQL/TSQL on Matt Snider</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>© 2019 Matt Snider</copyright>
+    
+	<atom:link href="https://matt-snider.github.io/de/tags/microsoft-sql/tsql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ceridian Dayforce</title>
+      <link>https://matt-snider.github.io/de/work/ceridian-dayforce/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/de/work/ceridian-dayforce/</guid>
+      <description> Leitung der Entwicklung eines innerbetrieblichen Toolsets für Umsetzungsberater um die Implementierungszyklus zu beschleunigen Das Toolset bestand aus GUIs auf Basis von C#/WPF &amp;amp; Java/JFX/Swing, und einem ASP.NET Web API Backend  </description>
+    </item>
+    
+  </channel>
+</rss>

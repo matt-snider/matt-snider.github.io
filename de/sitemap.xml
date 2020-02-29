@@ -3,6 +3,76 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://matt-snider.github.io/de/tags/angular/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/angular/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/angular/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/angularjs/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/angularjs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/angularjs/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/apache-ant/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/apache-ant/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/apache-ant/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/c#/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/c#/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/c#/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/categories/"
+                />
+  </url>
+  
+  <url>
     <loc>https://matt-snider.github.io/de/work/ceridian-dayforce/</loc>
     <xhtml:link
                 rel="alternate"
@@ -13,6 +83,104 @@
                 rel="alternate"
                 hreflang="de"
                 href="https://matt-snider.github.io/de/work/ceridian-dayforce/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/work/dataport/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/work/dataport/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/work/dataport/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/deis/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/deis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/deis/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/django/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/django/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/django/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/django-rest-framework/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/django-rest-framework/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/django-rest-framework/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/docker/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/docker/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/docker/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/dropwizard/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/dropwizard/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/dropwizard/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/flask/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/flask/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/flask/"
                 />
   </url>
   
@@ -31,37 +199,105 @@
   </url>
   
   <url>
-    <loc>https://matt-snider.github.io/de/work/surf-media-gmbh/</loc>
+    <loc>https://matt-snider.github.io/de/tags/gitlab/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://matt-snider.github.io/work/surf-media-gmbh/"
+                href="https://matt-snider.github.io/tags/gitlab/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://matt-snider.github.io/de/work/surf-media-gmbh/"
+                href="https://matt-snider.github.io/de/tags/gitlab/"
                 />
   </url>
   
   <url>
-    <loc>https://matt-snider.github.io/de/categories/</loc>
-    <priority>0</priority>
+    <loc>https://matt-snider.github.io/de/tags/gitlab-ci/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://matt-snider.github.io/categories/"
+                href="https://matt-snider.github.io/tags/gitlab-ci/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://matt-snider.github.io/de/categories/"
+                href="https://matt-snider.github.io/de/tags/gitlab-ci/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/java/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/java/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/java/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/javafx/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/javafx/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/javafx/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/javascript/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/javascript/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/javascript/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/jira/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/jira/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/jira/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/kohana/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/kohana/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/kohana/"
                 />
   </url>
   
   <url>
     <loc>https://matt-snider.github.io/de/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -89,6 +325,80 @@
   </url>
   
   <url>
+    <loc>https://matt-snider.github.io/de/tags/microsoft-sql/tsql/</loc>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/mongodb/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/mongodb/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/mongodb/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/ms-sql-server/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/ms-sql-server/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/ms-sql-server/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/mysql/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/mysql/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/mysql/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/php/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/php/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/php/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/postgresql/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/postgresql/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/postgresql/"
+                />
+  </url>
+  
+  <url>
     <loc>https://matt-snider.github.io/de/projects/</loc>
     <xhtml:link
                 rel="alternate"
@@ -103,8 +413,105 @@
   </url>
   
   <url>
+    <loc>https://matt-snider.github.io/de/tags/python/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/python/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/rabbitmq/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/rabbitmq/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/rabbitmq/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/redis/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/redis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/redis/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/selenium/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/selenium/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/selenium/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/sentry/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/sentry/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/sentry/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/work/surf-media-gmbh/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/work/surf-media-gmbh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/work/surf-media-gmbh/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/swing/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/swing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/swing/"
+                />
+  </url>
+  
+  <url>
     <loc>https://matt-snider.github.io/de/tags/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -118,8 +525,49 @@
   </url>
   
   <url>
+    <loc>https://matt-snider.github.io/de/tags/tornado/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/tornado/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/tornado/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/typescript/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/typescript/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/typescript/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/vue/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/vue/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/vue/"
+                />
+  </url>
+  
+  <url>
     <loc>https://matt-snider.github.io/de/work/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -129,6 +577,20 @@
                 rel="alternate"
                 hreflang="de"
                 href="https://matt-snider.github.io/de/work/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/wpf/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/wpf/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/wpf/"
                 />
   </url>
   

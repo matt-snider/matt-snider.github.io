@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Selenium on Matt Snider</title>
+    <link>https://matt-snider.github.io/de/tags/selenium/</link>
+    <description>Recent content in Selenium on Matt Snider</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>© 2019 Matt Snider</copyright>
+    
+	<atom:link href="https://matt-snider.github.io/de/tags/selenium/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Surf Media Gmbh</title>
+      <link>https://matt-snider.github.io/de/work/surf-media-gmbh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/de/work/surf-media-gmbh/</guid>
+      <description> Entwurf, Umsetzung und Testing von Web-Diensten eines Performance-Netzwerks in einer Deis-basierten Microservices-Architektur Entwicklung von REST APIs und Message-Consumern mittels Java/Dropwizard und Python/Flask/DRF AngularJS-basiertes Frontend Entwicklung eines Proxy-Servers zur Qualitätskontrolle der Werbemitteldarstellung Durch Pairprogrammierung und Codereviews die Einarbeitung von Kollegen unterstützt  </description>
+    </item>
+    
+  </channel>
+</rss>

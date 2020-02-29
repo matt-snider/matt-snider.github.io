@@ -11,7 +11,7 @@
     
     
     <item>
-      <title></title>
+      <title>Ceridian Dayforce</title>
       <link>https://matt-snider.github.io/de/work/ceridian-dayforce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -20,21 +20,21 @@
     </item>
     
     <item>
-      <title></title>
+      <title>Dataport AöR</title>
+      <link>https://matt-snider.github.io/de/work/dataport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/de/work/dataport/</guid>
+      <description> Full-Stack Web-Entwicklung Serviceorientierte Architektur Service Bus  </description>
+    </item>
+    
+    <item>
+      <title>Fresh City Farms</title>
       <link>https://matt-snider.github.io/de/work/fresh-city-farms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/de/work/fresh-city-farms/</guid>
       <description> Entwicklung von neuen Features und Wartung von bestehendem Code für eine eCommerce Plattform aus Toronto Fortlaufende Modernisierung und Migration des Frontends von jQuery auf VueJS  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://matt-snider.github.io/de/work/surf-media-gmbh/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matt-snider.github.io/de/work/surf-media-gmbh/</guid>
-      <description> Entwurf, Umsetzung und Testing von Web-Diensten eines Performance-Netzwerks in einer Deis-basierten Microservices-Architektur Entwicklung von REST APIs und Message-Consumern mittels Java/Dropwizard und Python/Flask/DRF AngularJS-basiertes Frontend Entwicklung eines Proxy-Servers zur Qualitätskontrolle der Werbemitteldarstellung Durch Pairprogrammierung und Codereviews die Einarbeitung von Kollegen unterstützt  </description>
     </item>
     
     <item>
@@ -44,6 +44,15 @@
       
       <guid>https://matt-snider.github.io/de/resume/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Surf Media Gmbh</title>
+      <link>https://matt-snider.github.io/de/work/surf-media-gmbh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/de/work/surf-media-gmbh/</guid>
+      <description> Entwurf, Umsetzung und Testing von Web-Diensten eines Performance-Netzwerks in einer Deis-basierten Microservices-Architektur Entwicklung von REST APIs und Message-Consumern mittels Java/Dropwizard und Python/Flask/DRF AngularJS-basiertes Frontend Entwicklung eines Proxy-Servers zur Qualitätskontrolle der Werbemitteldarstellung Durch Pairprogrammierung und Codereviews die Einarbeitung von Kollegen unterstützt  </description>
     </item>
     
     <item>
