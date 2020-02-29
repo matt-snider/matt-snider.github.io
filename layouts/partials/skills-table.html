@@ -23,7 +23,7 @@
                     {{ range ($pages.ByWeight.ByParam "date_end").Reverse }}
                         {{ if eq .Dir "work/" }}
                             <div>
-                                <a href="{{ .RelPermalink }}">
+                                <a href="./#{{ .UniqueID }}">
                                     {{- .Title -}}
                                 </a>
                             </div>
