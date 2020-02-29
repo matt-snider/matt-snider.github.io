@@ -6,8 +6,8 @@ function important() {
 
 important "Deploying updates to GitHub Pages..."
 
-# Build docs
-important "Building the docs..."
+# Build site
+important "Building the site..."
 hugo
 important "Done."
 
