@@ -1,6 +1,6 @@
 ---
 title: "Open Gift Exchange"
-weight: 50
+weight: 100
 
 links:
     - title: GitHub

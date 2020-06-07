@@ -13,13 +13,15 @@ tags:
     - CLI
 ---
 
-I think [Todoist][todoist] is a fantastic productivity app, but I also try to use as many open-source & self-hosted tools as possible. This led me to build a tool to migrate all my tasks from Todoist into Taskwarrior. 
+I think [Todoist][todoist] is a fantastic productivity app, but I have recently been trying to transition to as mnay open-source & self-hosted tools as possible. This led me to build a tool to migrate all my tasks from Todoist into Taskwarrior.
 
 <!--more-->
 
-It meets those criteria and is also usable as a CLI, [TUI][tui] (see [vit][vit], [tasknc][tasknc]), and on Android (see [Taskwarrior Android](taskwarriorandroid), [Mirakel][mirakel]). I also own and have access to _all_ my data. On Todoist I couldn't access my completed tasks, comment on tasks, or set tags, and many other operations. I have a free account so I don't blame them of course. Keep in mind that none of the clients are _nearly_ as nice looking or user-friendly as Todoist, but Taskwarrior has so far been working out very well for me.
+Taskwarrior is great! It's open source, and self-hostable (taskserver/taskd). There's a CLI, [TUI][tui] (see [vit][vit], [tasknc][tasknc]), and an Android app (see [Taskwarrior Android](taskwarriorandroid), [Mirakel][mirakel]).
 
-The tool is written in Python 3.x and is a [Click][click]-based CLI. It uses the [todoist-python][todoist-python] library to access the [Todoist Sync API][todoist-sync-api]. To interface with the local Taskwarrior it uses [taskw][taskw]. It can migrate all tasks at once, or iterate through them in an interactive manner prompting the user to modify, skip, etc for each task.
+On Todoist I couldn't access my completed tasks, comment on tasks, or set tags, as well as many other operations. I understand the need to monetize a product that they've worked hard and done a great job on - I only had a free account, and this isn't a complaint! But, with Taskwarrior I own and have access to _all_ my data and all features of the tool. A downside is that the UX isn't as good as Todoist.
+
+I wrote CLI a tool to migrate my data in Python 3.x using [Click][click]. It uses the [todoist-python][todoist-python] library to access the [Todoist Sync API][todoist-sync-api]. To interface with the local Taskwarrior it uses [taskw][taskw]. It can migrate all tasks at once, or iterate through them in an interactive manner prompting the user to modify, skip, etc for each task.
 
 For example:
 

@@ -1,6 +1,6 @@
 ---
 title: "SOCKS5 Proxy"
-weight: 100
+weight: 60
 
 links:
     - title: GitHub
