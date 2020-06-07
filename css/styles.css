@@ -14,7 +14,6 @@ body {
 a {
     transition: color .4s;
     color: #265C83;
-    text-decoration: underline;
 }
 
 a:link,
@@ -179,14 +178,17 @@ a.nav-link:hover {
  */
 .skills-table th,
 .skills-table td {
-    padding: 0.8rem 1.0rem;
+    padding: 1.0rem;
     vertical-align: top;
+    font-size: 1.25rem;
 }
 
-.skills-table .note {
-    font-size: 0.65em;
+.skills-table th[colspan="3"] {
+    background-color: grey;
+    color: white;
+    padding: 0.8rem;
+    font-size: 1.15rem;
 }
-
 
 /**
  * Project-specific

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -325,6 +325,20 @@
   </url>
   
   <url>
+    <loc>https://matt-snider.github.io/de/tags/microsoft-sql-server/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/microsoft-sql-server/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/microsoft-sql-server/"
+                />
+  </url>
+  
+  <url>
     <loc>https://matt-snider.github.io/de/tags/microsoft-sql/tsql/</loc>
   </url>
   
@@ -343,20 +357,6 @@
   </url>
   
   <url>
-    <loc>https://matt-snider.github.io/de/tags/ms-sql-server/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://matt-snider.github.io/tags/ms-sql-server/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://matt-snider.github.io/de/tags/ms-sql-server/"
-                />
-  </url>
-  
-  <url>
     <loc>https://matt-snider.github.io/de/tags/mysql/</loc>
     <xhtml:link
                 rel="alternate"
@@ -367,6 +367,20 @@
                 rel="alternate"
                 hreflang="de"
                 href="https://matt-snider.github.io/de/tags/mysql/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/de/tags/nservicebus/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/nservicebus/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/nservicebus/"
                 />
   </url>
   

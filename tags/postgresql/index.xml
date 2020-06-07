@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PostgreSQL on Matt Snider</title>
     <link>https://matt-snider.github.io/tags/postgresql/</link>
     <description>Recent content in PostgreSQL on Matt Snider</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>© 2019 Matt Snider</copyright>
+    <copyright>© 2020 Matt Snider</copyright>
     
 	<atom:link href="https://matt-snider.github.io/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
     

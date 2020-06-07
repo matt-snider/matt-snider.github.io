@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AngularJS on Matt Snider</title>
     <link>https://matt-snider.github.io/tags/angularjs/</link>
     <description>Recent content in AngularJS on Matt Snider</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>© 2019 Matt Snider</copyright>
+    <copyright>© 2020 Matt Snider</copyright>
     
 	<atom:link href="https://matt-snider.github.io/tags/angularjs/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,7 +17,6 @@
       
       <guid>https://matt-snider.github.io/projects/angularjs-bootstrap/</guid>
       <description>&lt;p&gt;This is a now abandoned attempt at building a Bootstrap4-based component framework for AngularJS.&lt;/p&gt;
-
 &lt;p&gt;At the time, the company where I worked used AngularJS and Bootstrap, but decided against several existing component frameworks for various reasons. I decided it would be fun (and maybe even useful!) to build one myself.&lt;/p&gt;</description>
     </item>
     

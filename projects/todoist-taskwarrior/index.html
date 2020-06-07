@@ -5,7 +5,7 @@
         <meta name="author" content="Matt Snider">
         <meta name="description" content="https://matt-snider.github.io/">
         
-        <meta name="generator" content="Hugo 0.58.0" />
+        <meta name="generator" content="Hugo 0.64.0" />
 
         <title>Matt Snider</title>
 
@@ -99,14 +99,11 @@
         </div>
 
         <div class="my-5">
-            <p>I think <a href="https://todoist.com/">Todoist</a> is a fantastic productivity app, but I also try to use as many open-source &amp; self-hosted tools as possible. This led me to build a tool to migrate all my tasks from Todoist into Taskwarrior.</p>
-
-<p>It meets those criteria and is also usable as a CLI, <a href="https://en.wikipedia.org/wiki/Text-based_user_interface">TUI</a> (see <a href="https://github.com/scottkosty/vit">vit</a>, <a href="https://github.com/lharding/tasknc">tasknc</a>), and on Android (see <a href="taskwarriorandroid">Taskwarrior Android</a>, <a href="https://github.com/MirakelX/mirakel-android">Mirakel</a>). I also own and have access to <em>all</em> my data. On Todoist I couldn&rsquo;t access my completed tasks, comment on tasks, or set tags, and many other operations. I have a free account so I don&rsquo;t blame them of course. Keep in mind that none of the clients are <em>nearly</em> as nice looking or user-friendly as Todoist, but Taskwarrior has so far been working out very well for me.</p>
-
-<p>The tool is written in Python 3.x and is a <a href="https://github.com/pallets/click">Click</a>-based CLI. It uses the <a href="https://todoist-python.readthedocs.io/en/latest/">todoist-python</a> library to access the <a href="https://developer.todoist.com/sync">Todoist Sync API</a>. To interface with the local Taskwarrior it uses <a href="https://github.com/ralphbean/taskw">taskw</a>. It can migrate all tasks at once, or iterate through them in an interactive manner prompting the user to modify, skip, etc for each task.</p>
-
+            <p>I think <a href="https://todoist.com/">Todoist</a> is a fantastic productivity app, but I have recently been trying to transition to as mnay open-source &amp; self-hosted tools as possible. This led me to build a tool to migrate all my tasks from Todoist into Taskwarrior.</p>
+<p>Taskwarrior is great! It&rsquo;s open source, and self-hostable (taskserver/taskd). There&rsquo;s a CLI, <a href="https://en.wikipedia.org/wiki/Text-based_user_interface">TUI</a> (see <a href="https://github.com/scottkosty/vit">vit</a>, <a href="https://github.com/lharding/tasknc">tasknc</a>), and an Android app (see <a href="taskwarriorandroid">Taskwarrior Android</a>, <a href="https://github.com/MirakelX/mirakel-android">Mirakel</a>).</p>
+<p>On Todoist I couldn&rsquo;t access my completed tasks, comment on tasks, or set tags, as well as many other operations. I understand the need to monetize a product that they&rsquo;ve worked hard and done a great job on - I only had a free account, and this isn&rsquo;t a complaint! But, with Taskwarrior I own and have access to <em>all</em> my data and all features of the tool. A downside is that the UX isn&rsquo;t as good as Todoist.</p>
+<p>I wrote CLI a tool to migrate my data in Python 3.x using <a href="https://github.com/pallets/click">Click</a>. It uses the <a href="https://todoist-python.readthedocs.io/en/latest/">todoist-python</a> library to access the <a href="https://developer.todoist.com/sync">Todoist Sync API</a>. To interface with the local Taskwarrior it uses <a href="https://github.com/ralphbean/taskw">taskw</a>. It can migrate all tasks at once, or iterate through them in an interactive manner prompting the user to modify, skip, etc for each task.</p>
 <p>For example:</p>
-
 <pre><code class="language-sh">$ python -m todoist_taskwarrior.cli migrate --interactive
 Interactively add tasks
 
@@ -133,7 +130,6 @@ recur: 3 days
 
 Import this task? (y, n, r, t, p, q, ?):
 </code></pre>
-
         </div>
     </div>
 </div>
@@ -141,7 +137,7 @@ Import this task? (y, n, r, t, p, q, ?):
             </div>
 
             <footer class="footer">
-    © 2019 Matt Snider
+    © 2020 Matt Snider
 </footer>
 
 

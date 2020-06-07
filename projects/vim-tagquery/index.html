@@ -5,7 +5,7 @@
         <meta name="author" content="Matt Snider">
         <meta name="description" content="https://matt-snider.github.io/">
         
-        <meta name="generator" content="Hugo 0.58.0" />
+        <meta name="generator" content="Hugo 0.64.0" />
 
         <title>Matt Snider</title>
 
@@ -106,21 +106,15 @@
 
         <div class="my-5">
             <p>I use <a href="https://github.com/vimwiki/vimwiki">VimWiki</a> a lot in my daily life as my <a href="https://en.wikipedia.org/wiki/Personal_knowledge_base">personal knowledge base/wiki</a> and journal. I tag my notes extensively but found the built-in tag search in Vim and VimWiki seriously lacking.</p>
-
 <p>It only supports simple searches like:</p>
-
 <blockquote>
 <p>find all entries that have the tag <code>xyz</code></p>
 </blockquote>
-
 <p>But what I wanted, was something like:</p>
-
 <blockquote>
 <p>find all entries with the tag <code>work</code> AND <code>python</code> AND <code>parsing</code></p>
 </blockquote>
-
 <p>So I decided to first build a CLI program in Rust, <a href="https://github.com/matt-snider/ctags-query">ctags-query</a>, that could parse and store [ctags files][ctags-file-format] in a way that would allow querying. It  was now possible to build a simple query interpreter to do exactly what I wanted:</p>
-
 <pre><code>$ ctags-query 'work &amp; python &amp; parsing'
 path/to/fileX:10
 path/to/fileY:50
@@ -130,9 +124,7 @@ $ ctags-query 'work &amp; python &amp; parsing'
 path/to/fileX:22
 path/to/fileY:90
 </code></pre>
-
 <p>Integrating it into Vim as a plugin just required building a basic Vimscript layer on top of the Rust CLI tool, which is the code that lives in the <a href="https://github.com/matt-snider/ctags-query">vim-tagquery</a> repository. I gave it a basic <a href="http://ctags.sourceforge.net/ctags.html#TAG%20FILE%20FORMAT">FZF</a>-based search interface.</p>
-
         </div>
     </div>
 </div>
@@ -140,7 +132,7 @@ path/to/fileY:90
             </div>
 
             <footer class="footer">
-    © 2019 Matt Snider
+    © 2020 Matt Snider
 </footer>
 
 

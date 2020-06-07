@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Matt Snider</title>
     <link>https://matt-snider.github.io/</link>
     <description>Recent content on Matt Snider</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>© 2019 Matt Snider</copyright>
+    <copyright>© 2020 Matt Snider</copyright>
     
 	<atom:link href="https://matt-snider.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -16,16 +16,16 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/projects/todoist-taskwarrior/</guid>
-      <description>&lt;p&gt;I think &lt;a href=&#34;https://todoist.com/&#34;&gt;Todoist&lt;/a&gt; is a fantastic productivity app, but I also try to use as many open-source &amp;amp; self-hosted tools as possible. This led me to build a tool to migrate all my tasks from Todoist into Taskwarrior.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I think &lt;a href=&#34;https://todoist.com/&#34;&gt;Todoist&lt;/a&gt; is a fantastic productivity app, but I have recently been trying to transition to as mnay open-source &amp;amp; self-hosted tools as possible. This led me to build a tool to migrate all my tasks from Todoist into Taskwarrior.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Vim TagQuery</title>
-      <link>https://matt-snider.github.io/projects/vim-tagquery/</link>
+      <title>Vim Guitar Tab Viewer</title>
+      <link>https://matt-snider.github.io/projects/vim-guitar-tab/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matt-snider.github.io/projects/vim-tagquery/</guid>
-      <description>&lt;p&gt;I use &lt;a href=&#34;https://github.com/vimwiki/vimwiki&#34;&gt;VimWiki&lt;/a&gt; a lot in my daily life as my &lt;a href=&#34;https://en.wikipedia.org/wiki/Personal_knowledge_base&#34;&gt;personal knowledge base/wiki&lt;/a&gt; and journal. I tag my notes extensively but found the built-in tag search in Vim and VimWiki seriously lacking.&lt;/p&gt;</description>
+      <guid>https://matt-snider.github.io/projects/vim-guitar-tab/</guid>
+      <description>&lt;p&gt;I don&amp;rsquo;t play guitar much anymore, but when I do it&amp;rsquo;s good if I can quickly access tabs of songs I&amp;rsquo;m learning. I also prefer storing data in plain text as opposed to just linking to a guitar tab site. That way they are also available offline.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -38,12 +38,21 @@
     </item>
     
     <item>
-      <title>Open Gift Exchange</title>
-      <link>https://matt-snider.github.io/projects/open-gift-exchange/</link>
+      <title>Vim TagQuery</title>
+      <link>https://matt-snider.github.io/projects/vim-tagquery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matt-snider.github.io/projects/open-gift-exchange/</guid>
-      <description>&lt;p&gt;This is very much a WIP and I haven&amp;rsquo;t had much time for it lately, but the idea is to build an open-source solution for doing gift exchanges (e.g. &lt;em&gt;Secret Santa&lt;/em&gt;). This was motivated by using other &amp;ldquo;free&amp;rdquo; gift exchange web apps and seeing how much advertising &amp;amp; personal data harvesting was going on. I also wanted to learn more about Haskell and &lt;a href=&#34;https://github.com/haskell-servant/servant&#34;&gt;Servant&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>https://matt-snider.github.io/projects/vim-tagquery/</guid>
+      <description>&lt;p&gt;I use &lt;a href=&#34;https://github.com/vimwiki/vimwiki&#34;&gt;VimWiki&lt;/a&gt; a lot in my daily life as my &lt;a href=&#34;https://en.wikipedia.org/wiki/Personal_knowledge_base&#34;&gt;personal knowledge base/wiki&lt;/a&gt; and journal. I tag my notes extensively but found the built-in tag search in Vim and VimWiki seriously lacking.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>SOCKS5 Proxy</title>
+      <link>https://matt-snider.github.io/projects/socks5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/projects/socks5/</guid>
+      <description>&lt;p&gt;I wanted to experiment with Python&amp;rsquo;s asyncio and build some kind of server application. SOCKS is a simple binary protocol that is well documented and easy to implement from the &lt;a href=&#34;https://tools.ietf.org/html/rfc1928&#34;&gt;RFC&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -53,7 +62,6 @@
       
       <guid>https://matt-snider.github.io/projects/angularjs-bootstrap/</guid>
       <description>&lt;p&gt;This is a now abandoned attempt at building a Bootstrap4-based component framework for AngularJS.&lt;/p&gt;
-
 &lt;p&gt;At the time, the company where I worked used AngularJS and Bootstrap, but decided against several existing component frameworks for various reasons. I decided it would be fun (and maybe even useful!) to build one myself.&lt;/p&gt;</description>
     </item>
     
@@ -67,12 +75,12 @@
     </item>
     
     <item>
-      <title>SOCKS5 Proxy</title>
-      <link>https://matt-snider.github.io/projects/socks5/</link>
+      <title>Open Gift Exchange</title>
+      <link>https://matt-snider.github.io/projects/open-gift-exchange/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matt-snider.github.io/projects/socks5/</guid>
-      <description>&lt;p&gt;I wanted to experiment with Python&amp;rsquo;s asyncio and build some kind of server application. SOCKS is a simple binary protocol that is well documented and easy to implement from the &lt;a href=&#34;https://tools.ietf.org/html/rfc1928&#34;&gt;RFC&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>https://matt-snider.github.io/projects/open-gift-exchange/</guid>
+      <description>&lt;p&gt;This is very much a WIP and I haven&amp;rsquo;t had much time for it lately, but the idea is to build an open-source solution for doing gift exchanges (e.g. &lt;em&gt;Secret Santa&lt;/em&gt;). This was motivated by using other &amp;ldquo;free&amp;rdquo; gift exchange web apps and seeing how much advertising &amp;amp; personal data harvesting was going on. I also wanted to learn more about Haskell and &lt;a href=&#34;https://github.com/haskell-servant/servant&#34;&gt;Servant&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
