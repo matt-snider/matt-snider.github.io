@@ -16,7 +16,8 @@ tags:
     - Angular
 
     # Databases
-    - MS SQL Server
+    - Microsoft SQL Server
+    - NServiceBus
 ---
 * Full-Stack web development
 * Service Oriented Architecture

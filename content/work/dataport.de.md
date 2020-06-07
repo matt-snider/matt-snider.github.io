@@ -1,6 +1,6 @@
 ---
 title: Dataport AöR
-position: Software Developer
+position: Software-Entwickler
 
 location: Bremen, Germany
 
@@ -16,7 +16,8 @@ tags:
     - Angular
 
     # Databases
-    - MS SQL Server
+    - Microsoft SQL Server
+    - NServiceBus
 ---
 * Full-Stack Web-Entwicklung
 * Serviceorientierte Architektur

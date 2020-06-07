@@ -1,36 +1,44 @@
 <div>
     <table class="skills-table">
-        <tr>
-            <th scope="col">Name</th>
-            <th scope="col">Projects</th>
-            <th scope="col">Work Experience</th>
-        </tr>
-        {{ range $.skills.entries }}
-            {{ $tag   := lower .name }}
-            {{ $pages := $.tags.Get $tag }}
+        {{ range $.skills.sections }}
             <tr>
-                <td> {{ .name }} </td>
-                <td>
-                    {{ range $pages.ByWeight }}
-                        {{ if eq .Dir "projects/" }}
-                        <div>
-                            <a href="{{ .RelPermalink }}">{{- .Title -}}</a>
-                        </div>
-                        {{ end }}
-                    {{ end }}
-                </td>
-                <td>
-                    {{ range ($pages.ByWeight.ByParam "date_end").Reverse }}
-                        {{ if eq .Dir "work/" }}
-                            <div>
-                                <a href="./#{{ .UniqueID }}">
-                                    {{- .Title -}}
-                                </a>
-                            </div>
-                        {{ end }}
-                    {{ end }}
-                </td>
+                <th colspan="3" scope="colgroup">
+                    {{ .name }}
+                </th>
             </tr>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Projects</th>
+                <th scope="col">Work Experience</th>
+            </tr>
+
+            {{ range .entries }}
+                {{ $tag   := lower .name }}
+                {{ $pages := $.tags.Get $tag }}
+                <tr>
+                    <td> {{ .name }} </td>
+                    <td>
+                        {{ range $pages.ByWeight }}
+                            {{ if eq .Dir "projects/" }}
+                            <div>
+                                <a href="{{ .RelPermalink }}">{{- .Title -}}</a>
+                            </div>
+                            {{ end }}
+                        {{ end }}
+                    </td>
+                    <td>
+                        {{ range ($pages.ByWeight.ByParam "date_end").Reverse }}
+                            {{ if eq .Dir "work/" }}
+                                <div>
+                                    <a href="./#{{ .UniqueID }}">
+                                        {{- .Title -}}
+                                    </a>
+                                </div>
+                            {{ end }}
+                        {{ end }}
+                    </td>
+                </tr>
+            {{ end }}
         {{ end }}
     </table>
 </div>

@@ -28,6 +28,7 @@ tags:
     - MongoDB
 
     # Tools
+    - Maven
     - Docker
     - Deis
     - Selenium
@@ -38,7 +39,7 @@ tags:
     - GitLab CI
     - JIRA
 ---
-* Designed, implemented and tested web services for an advertising performance network in a Deis-based microservices architecture 
+* Designed, implemented and tested web services for an advertising performance network in a Deis-based microservices architecture
 * REST APIs and message consumers using Java/Dropwizard and Python/Flask/DRF
 * AngularJS-based frontend
 * Developed a SOCKS5 proxy server to interface with devices as part of our automated ad-testing infrastructure

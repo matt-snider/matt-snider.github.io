@@ -2,26 +2,33 @@
 #
 # Each entry represents a skill and will be shown in the table
 
-entries:
-    # Programming Languages
-    - name: Python
-    - name: C#
-    - name: Java
-    - name: Javascript
-    - name: Rust
-    - name: Haskell
-    - name: Go
+sections:
+    - name: Programming Languages
+      entries:
+        - name: Java
+        - name: Python
+        - name: C#
+        - name: Javascript
+        - name: TypeScript
+        - name: Rust
+        - name: Haskell
+        - name: Go
+        - name: PHP
 
-    # Frontend Frameworks
-    - name: Angular
-    - name: AngularJS
-    - name: Vue
-    - name: PHP
-    - name: React
+    - name: Frontend Frameworks
+      entries:
+        - name: Angular
+        - name: AngularJS
+        - name: Vue
+        - name: React
 
     # Databases
-    - name: PostgreSQL
-    - name: Redis
-    - name: RabbitMQ
-    - name: MongoDB
+    - name: Databases
+      entries:
+        - name: PostgreSQL
+        - name: Microsoft SQL Server
+        - name: NServiceBus
+        - name: RabbitMQ
+        - name: Redis
+        - name: MongoDB
 
