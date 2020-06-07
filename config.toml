@@ -2,6 +2,10 @@ title     = "Matt Snider"
 baseURL   = "https://matt-snider.github.io/"
 copyright = "© 2020 Matt Snider"
 
+[markup]
+  [markup.highlight]
+    codeFences = false
+
 [params]
     full_name = "Matt Snider"
     job_title = "Software Developer"
