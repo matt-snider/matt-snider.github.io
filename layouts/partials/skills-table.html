@@ -19,7 +19,7 @@
                     <td> {{ .name }} </td>
                     <td>
                         {{ range $pages.ByWeight }}
-                            {{ if eq .Dir "projects/" }}
+                            {{ if eq .File.Dir "projects/" }}
                             <div>
                                 <a href="{{ .RelPermalink }}">{{- .Title -}}</a>
                             </div>
@@ -28,9 +28,9 @@
                     </td>
                     <td>
                         {{ range ($pages.ByWeight.ByParam "date_end").Reverse }}
-                            {{ if eq .Dir "work/" }}
+                            {{ if eq .File.Dir "work/" }}
                                 <div>
-                                    <a href="./#{{ .UniqueID }}">
+                                    <a href="./#{{ .File.UniqueID }}">
                                         {{- .Title -}}
                                     </a>
                                 </div>
