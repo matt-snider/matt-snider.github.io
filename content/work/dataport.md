@@ -5,7 +5,7 @@ position: Software Developer
 location: Bremen, Germany
 
 date_start: 2019-09-01
-date_end:
+date_end: 2020-10-01
 
 tags:
     # Languages
