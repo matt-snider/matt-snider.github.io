@@ -35,20 +35,20 @@
 </div>
 
 <div class="my-3">
-    <h3> {{ i18n "skills_header" }} </h3>
-
-    <div>
-       {{ partial "skills-table.html" (dict "skills" $.Site.Data.skills.software "tags" $tags) }}
-    </div>
-</div>
-
-<div class="my-3">
     <h3> {{ i18n "work_experience_header" }} </h3>
 
     <div>
         {{ range (where ($pages.ByParam "date_end").Reverse "Type" "work") }}
             {{ .Render "single" }}
         {{ end }}
+    </div>
+</div>
+
+<div class="my-3">
+    <h3> {{ i18n "skills_header" }} </h3>
+
+    <div>
+       {{ partial "skills-table.html" (dict "skills" $.Site.Data.skills.software "tags" $tags) }}
     </div>
 </div>
 
