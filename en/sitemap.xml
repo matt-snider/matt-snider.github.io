@@ -237,6 +237,20 @@
   </url>
   
   <url>
+    <loc>https://matt-snider.github.io/tags/elasticsearch/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/elasticsearch/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/elasticsearch/"
+                />
+  </url>
+  
+  <url>
     <loc>https://matt-snider.github.io/tags/elm/</loc>
   </url>
   
@@ -265,6 +279,20 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://matt-snider.github.io/work/fresh-city-farms/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/work/frickl/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/work/frickl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/work/frickl/"
                 />
   </url>
   
@@ -545,6 +573,20 @@
   </url>
   
   <url>
+    <loc>https://matt-snider.github.io/tags/react/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/react/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/react/"
+                />
+  </url>
+  
+  <url>
     <loc>https://matt-snider.github.io/tags/redis/</loc>
     <xhtml:link
                 rel="alternate"
@@ -564,6 +606,16 @@
   
   <url>
     <loc>https://matt-snider.github.io/tags/rust/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/rust/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/rust/"
+                />
   </url>
   
   <url>
@@ -646,6 +698,20 @@
   
   <url>
     <loc>https://matt-snider.github.io/tags/taskwarrior/</loc>
+  </url>
+  
+  <url>
+    <loc>https://matt-snider.github.io/tags/terraform/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://matt-snider.github.io/de/tags/terraform/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matt-snider.github.io/tags/terraform/"
+                />
   </url>
   
   <url>

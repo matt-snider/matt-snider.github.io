@@ -34,7 +34,16 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/de/work/fresh-city-farms/</guid>
-      <description> Entwicklung von neuen Features und Wartung von bestehendem Code für eine eCommerce Plattform aus Toronto Fortlaufende Modernisierung und Migration des Frontends von jQuery auf VueJS  </description>
+      <description> Entwicklung und Modernisierung einer Toronto-basierten eCommerce Plattform  </description>
+    </item>
+    
+    <item>
+      <title>Frickl</title>
+      <link>https://matt-snider.github.io/de/work/frickl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/de/work/frickl/</guid>
+      <description>Ein Fehlversuch, ein neues Videoportal zu gründen. Trotzdem haben wir Spaß gehabt und viel gelernt.</description>
     </item>
     
     <item>
@@ -61,9 +70,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/de/about/</guid>
-      <description>Ich bin ein Software-Entwickler aus Kanada mit über 5 Jahren Berufserfahrung. Ich arbeite hauptsächlich im Bereich Web-Entwicklung, aber ich bin offen für andere Möglichkeiten und lerne neue Technologien immer gerne.
-Ich bin in Toronto aufgewachsen, aber seit einigen Jahren wohne ich in Bremen.
-Aktuell sind meine Lieblingsprogrammiersprachen/Technologien: Python, Haskell, Rust, und React. Ich würde gerne irgendwann probieren: Erlang/Elixir und Purescript.</description>
+      <description>Hi, mein Name ist Matt. Ich bin ein Software-Entwickler aus Kanada und wohne zur Zeit in Bremen.
+Ich arbeite seit 2013 und entwickle hauptsächlich Web-Anwendungen, aber ich habe Spaß daran, neue Technologien zu lernen, und bin daher auch offen für andere Gelegenheiten.
+Professionell gearbeitet habe ich mit Python, Java, C#, and PHP im Backend. Im Frontend habe ich mit vielen der gängigen Frameworks (Vue, React, Angular) gearbeitet. Auch in der Freizeit programmiere ich gerne.</description>
     </item>
     
   </channel>

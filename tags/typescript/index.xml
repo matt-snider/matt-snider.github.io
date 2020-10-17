@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>TypeScript on Matt Snider</title>
+    <title>Typescript on Matt Snider</title>
     <link>https://matt-snider.github.io/tags/typescript/</link>
-    <description>Recent content in TypeScript on Matt Snider</description>
+    <description>Recent content in Typescript on Matt Snider</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© 2020 Matt Snider</copyright>
     
@@ -17,6 +17,15 @@
       
       <guid>https://matt-snider.github.io/work/dataport/</guid>
       <description> Full-Stack web development Service Oriented Architecture Service Bus  </description>
+    </item>
+    
+    <item>
+      <title>Fresh City Farms</title>
+      <link>https://matt-snider.github.io/work/fresh-city-farms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/work/fresh-city-farms/</guid>
+      <description> Development and Modernization of a Toronto-based eCommerce platform  </description>
     </item>
     
   </channel>

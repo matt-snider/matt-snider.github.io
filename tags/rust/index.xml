@@ -19,5 +19,14 @@
       <description>&lt;p&gt;I use &lt;a href=&#34;https://github.com/vimwiki/vimwiki&#34;&gt;VimWiki&lt;/a&gt; a lot in my daily life as my &lt;a href=&#34;https://en.wikipedia.org/wiki/Personal_knowledge_base&#34;&gt;personal knowledge base/wiki&lt;/a&gt; and journal. I tag my notes extensively but found the built-in tag search in Vim and VimWiki seriously lacking.&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>Frickl</title>
+      <link>https://matt-snider.github.io/work/frickl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/work/frickl/</guid>
+      <description>A failed attempt at starting a new video-sharing platform. Despite not working out, it was a great experience and we learned a lot.</description>
+    </item>
+    
   </channel>
 </rss>

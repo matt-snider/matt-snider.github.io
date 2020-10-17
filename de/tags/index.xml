@@ -92,6 +92,15 @@
     </item>
     
     <item>
+      <title>Elasticsearch</title>
+      <link>https://matt-snider.github.io/de/tags/elasticsearch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/de/tags/elasticsearch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Flask</title>
       <link>https://matt-snider.github.io/de/tags/flask/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -245,11 +254,29 @@
     </item>
     
     <item>
+      <title>React</title>
+      <link>https://matt-snider.github.io/de/tags/react/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/de/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Redis</title>
       <link>https://matt-snider.github.io/de/tags/redis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/de/tags/redis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rust</title>
+      <link>https://matt-snider.github.io/de/tags/rust/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/de/tags/rust/</guid>
       <description></description>
     </item>
     
@@ -277,6 +304,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/de/tags/swing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terraform</title>
+      <link>https://matt-snider.github.io/de/tags/terraform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/de/tags/terraform/</guid>
       <description></description>
     </item>
     
