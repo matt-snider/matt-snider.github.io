@@ -26,6 +26,7 @@ tags:
     - RabbitMQ
     - Redis
     - MongoDB
+    - Elasticsearch
 
     # Tools
     - Maven

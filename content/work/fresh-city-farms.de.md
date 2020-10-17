@@ -1,27 +1,29 @@
 ---
 title: Fresh City Farms
-position: Freelancer (Teilzeit)
+position: Freelancer
 
-location: Fernarbeit
+location: Remote
 
-date_start: 2018-01-01
-date_end:
+date_start: 2020-11-01
+date_end: ongoing
 
 tags:
     # Languages
+    - Java
+    - Typescript
     - PHP
-    - Javascript
 
     # Frameworks
-    - Kohana
     - Vue
+    - Kohana
 
     # Databases
     - MySQL
+    - Redis
+    - Elasticsearch
 
     # Tools
     - Docker
 ---
-* Entwicklung von neuen Features und Wartung von bestehendem Code für eine eCommerce Plattform aus Toronto
-* Fortlaufende Modernisierung und Migration des Frontends von jQuery auf VueJS 
+* Entwicklung und Modernisierung einer Toronto-basierten eCommerce Plattform
 
