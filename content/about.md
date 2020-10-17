@@ -3,9 +3,12 @@ title: About Me
 type: about
 ---
 
-I'm a software engineer with over 5 years of professional experience. I mostly work on web applications (frontend & backend), but enjoy learning new things and am open to working in other domains. 
+Hi, my name is Matt. I'm a software engineer from Toronto currently living in Bremen, Germany.
 
-I was born and raised in Toronto, but I've been living in Bremen, Germany for the last several years.
+I've been working since 2013. I mostly build web applications, but I really enjoy learning new technologies and concepts,
+so I'm open to working in other areas.
 
-Currently, I most enjoy writing software using **Python**, **Haskell**, **Rust**, and **React**. I'm very interested in trying out **Erlang/Elixir** and **Purescript**.
+I've worked professionally with `Python`, `Java`, `C#`, and `PHP` in the backend, and have worked with many of the major frameworks in the frontend (`Vue`, `React`, `Angular`).
+When I have some free time, I enjoy programming and learning `Rust` & `Haskell`. I've recently been looking into `Elixir` as well. At some point I'd like to try out `Purescript`
+or `Bucklescript/Reason`.
 

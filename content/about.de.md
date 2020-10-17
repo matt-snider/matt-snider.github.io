@@ -3,9 +3,12 @@ title: Über mich
 type: about
 ---
 
-Ich bin ein Software-Entwickler aus Kanada mit über 5 Jahren Berufserfahrung. Ich arbeite hauptsächlich im Bereich Web-Entwicklung, aber ich bin offen für andere Möglichkeiten und lerne neue Technologien immer gerne.
+Hi, mein Name ist Matt. Ich bin ein Software-Entwickler aus Kanada und wohne zur Zeit in Bremen.
 
-Ich bin in Toronto aufgewachsen, aber seit einigen Jahren wohne ich in Bremen.
+Ich arbeite seit 2013 und entwickle hauptsächlich Web-Anwendungen, aber ich habe Spaß daran,
+neue Technologien zu lernen, und bin daher auch offen für andere Gelegenheiten.
 
-Aktuell sind meine Lieblingsprogrammiersprachen/Technologien: **Python**, **Haskell**, **Rust**, und **React**. Ich würde gerne irgendwann probieren: **Erlang/Elixir** und **Purescript**.
+Professionell gearbeitet habe ich mit `Python`, `Java`, `C#`, and `PHP` im Backend. Im Frontend habe ich mit vielen der gängigen Frameworks (`Vue`, `React`, `Angular`) gearbeitet.
+Auch in der Freizeit programmiere ich gerne. Zur Zeit beschäftige ich mich ein bisschen mit `Rust` und `Haskell` und kürzlich auch `Elixir`. 
+Irgendwann will ich `Purescript` oder `Bucklescript/Reason` ausprobieren.
 

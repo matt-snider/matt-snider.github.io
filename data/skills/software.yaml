@@ -31,4 +31,5 @@ sections:
         - name: RabbitMQ
         - name: Redis
         - name: MongoDB
+        - name: Elasticsearch
 
