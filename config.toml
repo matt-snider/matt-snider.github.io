@@ -1,6 +1,6 @@
 title     = "Matt Snider"
 baseURL   = "https://matt-snider.github.io/"
-copyright = "© 2020 Matt Snider"
+copyright = "© 2024 Matt Snider"
 
 [markup]
   [markup.highlight]
@@ -24,21 +24,4 @@ copyright = "© 2020 Matt Snider"
     [params.navigation]
     about    = "About"
     projects = "Projects"
-
-[languages]
-
-    [languages.en]
-    weight = 1
-    languageName = "English"
-
-    [languages.de]
-    weight = 2
-    languageName = "Deutsch"
-
-        [languages.de.params]
-        job_title = "Software-Entwickler"
-
-            [languages.de.params.navigation]
-            about    = "About"
-            projects = "Projekte"
 

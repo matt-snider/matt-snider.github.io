@@ -9,13 +9,17 @@ links:
 tags:
     - Vim
 ---
-I don't play guitar much anymore, but when I do it's good if I can quickly access tabs of songs I'm learning. I also prefer storing data in plain text as opposed to just linking to a guitar tab site. That way they are also available offline.
+
+I'm an avid user of [Vim][vim] and I wanted to be able to store guitar tabs locally so
+I don't need to open slow, ad-riddled websites each time. I don't really like programming
+with VimScript, but it gets the job done, so I ended up using it to build a plugin to view
+guitar tabs, including a guitar chord viewer and autoscroll feature.
 
 <!--more-->
-
-After doing this for awhile, I did miss some features of guitar tab websites like autoscroll and guitar chord viewers. Since I view the tabs in Vim anyways, it was an obvious next step to built a plugin for this.
 
 Here's how it looks:
 
 ![Example of vim-guitar-tab](https://raw.githubusercontent.com/matt-snider/vim-guitar-tab/master/screenshots/example.png)
+
+[vim]: https://www.vim.org/
 

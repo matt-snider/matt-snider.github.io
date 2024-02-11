@@ -14,15 +14,35 @@ tags:
     - PHP
 
     # Frameworks
+    - JOOQ
+    - DB Scheduler
     - Vue
-    - Kohana
 
     # Databases
     - MySQL
     - Redis
-    - Elasticsearch
 
     # Tools
+    - AWS
+    - Kubernetes
     - Docker
+    - Metabase
+    - Terraform
+    - GitLab CI
+    - Nix
 ---
-* Development and Modernization of a Toronto-based eCommerce platform
+
+- Lead team of software engineers with expertise in system design,
+  architecture, and planning of software projects
+- Build & maintain cloud infrastructure as code using Terraform
+- Contribute to the ongoing development cycle by implementing new features,
+  addressing bug fixes, and fulfilling change requests in full stack
+  development
+- Collaborate with other developers and provide guidance via code reviews
+- Served as the technical lead for a project to integrate the systems from both
+  companies after the acquisition of Mama Earth Organics. This included
+  migration of data such as customer passwords, account preferences,
+  subscriptions and invoices.
+- Led effort to rebuild main application from PHP + jQuery to Java + Vue
+- Served as interim CTO from July 2021 until January 2022
+

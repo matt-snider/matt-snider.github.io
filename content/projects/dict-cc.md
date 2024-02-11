@@ -11,11 +11,14 @@ tags:
     - CLI
 ---
 
-I started this project while learning German so I was using [dict.cc][dict.cc] frequently. Being able to run lookups from the terminal instead of having to navigate to the webpage each time was a big boon. I also wanted to improve my knowledge of Haskell so this was a good starting project.
+While learning German, I found that frequently looking up translations on
+[dict.cc][dict.cc] was slow - open the browser, type in the URL, wait for it to load, type
+in the search, etc. Being able to do this in the terminal sped things up. I also wanted to
+improve my knowledge of Haskell and this was a good first project.
 
 <!--more-->
 
-Here's an example
+Here's an example of using the tool:
 
 ```sh
 $ dict-cc dictionary
@@ -27,9 +30,4 @@ dictionary                                         Lexikon {n} [70 ✓]
 dictionary                        Diktionär {n} {m} [veraltet] [66 ✓]
 ```
 
-
-If I were to start again, I would base it on the [DICT dictionary network protocol][dict-protocol-wk] and then add other backends from there as necessary (e.g. dict.cc, Linguee, Leo). Maybe at some point I will refactor it. 
-
-
 [dict.cc]: https://www.dict.cc/
-[dict-protocol-wk]: https://en.wikipedia.org/wiki/DICT

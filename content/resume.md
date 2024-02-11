@@ -1,5 +1,5 @@
 ---
-title: "Matt Snider - Resume"
+title: "Matt Snider - Resume/CV"
 type: resume
 ---
 

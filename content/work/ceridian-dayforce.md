@@ -14,7 +14,6 @@ tags:
 
     # Frameworks
     - WPF
-    - Swing
     - JavaFX
 
     # Databases
@@ -23,6 +22,10 @@ tags:
     # Tools
     - Apache ANT
 ---
-* Spearheaded the development of a new internal toolset for implementation consultants to accelerate the implementation cycle
-* The toolset consisted of GUIs built with C#/WPF & Java/JavaFX/Swing, and a C# WebAPI Backend
+
+- I lead the development of a new internal toolset for implementation
+  consultants to accelerate the implementation cycle, which was later made into
+  a dedicated development team
+- The tools were built using C# and WPF as well as Java and JavaFX and included
+  a Windows installer and updater
 

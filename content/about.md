@@ -3,12 +3,32 @@ title: About Me
 type: about
 ---
 
-Hi, my name is Matt. I'm a software engineer from Toronto currently living in Bremen, Germany.
+**Hey!** I'm Matt Snider. I'm an experienced software engineer based in Bremen, Germany.
 
-I've been working since 2013. I mostly build web applications, but I really enjoy learning new technologies and concepts,
-so I'm open to working in other areas.
+I am a Computer Engineering graduate of the University of Toronto and have been working
+since 2013.
 
-I've worked professionally with `Python`, `Java`, `C#`, and `PHP` in the backend, and have worked with many of the major frameworks in the frontend (`Vue`, `React`, `Angular`).
-When I have some free time, I enjoy programming and learning `Rust` & `Haskell`. I've recently been looking into `Elixir` as well. At some point I'd like to try out `Purescript`
-or `Bucklescript/Reason`.
+I have experience working in the following areas:
+
+- software design, architecture, and planning
+- cloud infrastructure, including provisioning infrastructure as code
+- frontend and backend web development
+- SQL and other database technologies
+- automated testing, continuous integration & delivery
+- collaboration and code review
+
+I have worked with the following technologies:
+
+- programming languages: Java, C#, Python, Javascript, Typescript, and PHP
+- frameworks: Micronaut, Spring, Dropwizard, Django, Flask, Vue, React, and Angular
+- databases: MySQL, PostgreSQL, MS SQL Server, Redis, Elasticsearch, Meilisearch,
+  RabbitMQ, SQS, MongoDB
+- misc: AWS, Kubernetes, Docker, Terraform, Ansible, nginx, S3, GitLab CI, Jenkins
+
+Besides that, I am an avid user of [NixOS](https://nixos.org/) and have experience with
+several other Linux Distros: Arch, Fedora, Ubuntu, Mint, CentOS, and Alpine.
+
+I also have experience with several other programming languages in a personal/hobby
+capacity, such as Nix, Rust, Haskell, Go, C, and C++. I have not worked professionally
+with these languages but would quickly become proficient.
 

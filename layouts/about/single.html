@@ -35,7 +35,7 @@
 </div>
 
 <div class="my-3">
-    <h3> {{ i18n "work_experience_header" }} </h3>
+    <h3> Work Experience </h3>
 
     <div>
         {{ range (where ($pages.ByParam "date_end").Reverse "Type" "work") }}
@@ -45,15 +45,7 @@
 </div>
 
 <div class="my-3">
-    <h3> {{ i18n "skills_header" }} </h3>
-
-    <div>
-       {{ partial "skills-table.html" (dict "skills" $.Site.Data.skills.software "tags" $tags) }}
-    </div>
-</div>
-
-<div class="my-3">
-    <h3> {{ i18n "education_header" }} </h3>
+    <h3> Education </h3>
 
     <div>
         {{ range where $pages "Type" "education" }}
@@ -64,12 +56,11 @@
 
 
 <div class="my-3">
-    <h3> {{ i18n "natural_languages_header" }} </h3>
+    <h3> Languages </h3>
 
     <div class="my-3">
-        {{ range $.Site.Data.skills.natural_languages }}
-           {{ partial "natural-languages.html" . }}
-        {{ end }}
+        <div> English: native </div>
+        <div> German: proficient </div>
     </div>
 </div>
 {{ end }}

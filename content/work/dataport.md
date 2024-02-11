@@ -19,7 +19,11 @@ tags:
     - Microsoft SQL Server
     - NServiceBus
 ---
-* Full-Stack web development
-* Service Oriented Architecture
-* Service Bus
+
+- Development of [dWorkflow][dworkflow], a workflow engine focused on the digitalization
+  of document-based admistration processes
+- The application consister of a REST API, NServiceBus to power the business logic and
+  long-running workflow processes, and an Angular frontend.
+
+[dworkflow]: https://www.dataport.de/dworkflow
 

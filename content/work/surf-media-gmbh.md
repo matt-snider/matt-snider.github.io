@@ -15,8 +15,7 @@ tags:
 
     # Frameworks
     - Dropwizard
-    - Django
-    - Django Rest Framework
+    - Django + DRF
     - Tornado
     - Flask
     - AngularJS
@@ -29,20 +28,18 @@ tags:
     - Elasticsearch
 
     # Tools
-    - Maven
     - Docker
-    - Deis
     - Selenium
-    - Sentry
 
     # Organizational
-    - GitLab
     - GitLab CI
-    - JIRA
 ---
-* Designed, implemented and tested web services for an advertising performance network in a Deis-based microservices architecture
-* REST APIs and message consumers using Java/Dropwizard and Python/Flask/DRF
-* AngularJS-based frontend
-* Developed a SOCKS5 proxy server to interface with devices as part of our automated ad-testing infrastructure
-* Mentored more junior coworkers through pair programming & code reviews
+
+- Designed, implemented and tested web services for an advertising performance network in
+  a microservices architecture
+- REST APIs and message consumers using Java/Dropwizard and Python/Flask/DRF
+- AngularJS-based frontend
+- Developed a proxy server to interface with mobile devices as part of our automated
+  ad-testing infrastructure
+- Mentored more junior coworkers through pair programming & code reviews
 

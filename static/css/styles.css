@@ -142,23 +142,6 @@ a.nav-link:hover {
     text-decoration: underline;
 }
 
-.nav-list.languages {
-    padding: 0;
-}
-
-.lang {
-    display: inline-block;
-}
-
-.lang a.active {
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.lang a.active:hover {
-    color: unset;
-}
-
 
 /**
  * Education
@@ -170,24 +153,6 @@ a.nav-link:hover {
 
 .education-entry .degree {
     font-style: italic;
-}
-
-
-/**
- * Skills Table
- */
-.skills-table th,
-.skills-table td {
-    padding: 1.0rem;
-    vertical-align: top;
-    font-size: 1.25rem;
-}
-
-.skills-table th[colspan="3"] {
-    background-color: grey;
-    color: white;
-    padding: 0.8rem;
-    font-size: 1.15rem;
 }
 
 /**

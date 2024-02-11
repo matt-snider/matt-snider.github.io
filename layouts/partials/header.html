@@ -31,21 +31,6 @@
             </a>
         </li>
         {{ end }}
-
-        <li class="nav-item">
-            <ul class="nav-list languages">
-                <li class="lang">
-                    <a class="active">{{ .Language.Lang }}</a>
-                </li>
-
-                {{ range .Translations }}
-                <li class="lang">
-                    <a href="{{ .Permalink }}">{{ .Language.Lang }}</a>
-                </li>
-                {{ end }}
-            </ul>
-        </li>
     </ul>
-
 </nav>
 

@@ -8,11 +8,14 @@ links:
 
 tags:
     - Python
+    - Async
     - SOCKS5
     - Proxy
 ---
 
-I wanted to experiment with Python's asyncio and build some kind of server application. SOCKS is a simple binary protocol that is well documented and easy to implement from the [RFC][socks-rfc].
+I wanted to experiment with Python's asyncio and build a server application. SOCKS is
+a simple binary protocol that is well documented and was easy to implement from the
+[RFC][socks-rfc].
 
 <!--more-->
 
