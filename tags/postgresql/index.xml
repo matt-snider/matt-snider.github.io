@@ -5,36 +5,14 @@
     <link>https://matt-snider.github.io/tags/postgresql/</link>
     <description>Recent content in PostgreSQL on Matt Snider</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>© 2020 Matt Snider</copyright>
-    
-	<atom:link href="https://matt-snider.github.io/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Work Journal</title>
-      <link>https://matt-snider.github.io/projects/work-journal/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matt-snider.github.io/projects/work-journal/</guid>
-      <description>&lt;p&gt;This was a fun little TODO/productivity app to try out two technologies I was very curious about: &lt;a href=&#34;https://elm-lang.org&#34;&gt;Elm&lt;/a&gt; and &lt;a href=&#34;http://postgrest.org/&#34;&gt;PostgREST&lt;/a&gt;. It consists of a PostgreSQL-based RESTful API and a simple web interface.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Frickl</title>
-      <link>https://matt-snider.github.io/work/frickl/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matt-snider.github.io/work/frickl/</guid>
-      <description>A failed attempt at starting a new video-sharing platform. Despite not working out, it was a great experience and we learned a lot.</description>
-    </item>
-    
+    <copyright>© 2024 Matt Snider</copyright><atom:link href="https://matt-snider.github.io/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Surf Media Gmbh</title>
       <link>https://matt-snider.github.io/work/surf-media-gmbh/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/work/surf-media-gmbh/</guid>
-      <description> Designed, implemented and tested web services for an advertising performance network in a Deis-based microservices architecture REST APIs and message consumers using Java/Dropwizard and Python/Flask/DRF AngularJS-based frontend Developed a SOCKS5 proxy server to interface with devices as part of our automated ad-testing infrastructure Mentored more junior coworkers through pair programming &amp;amp; code reviews  </description>
+      <description> Built and tested web services in a microservices architecture for an advertising performance network using Java/Dropwizard and Python/Flask/DRF Developed a proxy server to interface with mobile devices as part of our automated ad-testing infrastructure </description>
     </item>
     
   </channel>

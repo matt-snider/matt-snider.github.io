@@ -5,18 +5,14 @@
     <link>https://matt-snider.github.io/tags/mongodb/</link>
     <description>Recent content in MongoDB on Matt Snider</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>© 2020 Matt Snider</copyright>
-    
-	<atom:link href="https://matt-snider.github.io/tags/mongodb/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>© 2024 Matt Snider</copyright><atom:link href="https://matt-snider.github.io/tags/mongodb/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Surf Media Gmbh</title>
       <link>https://matt-snider.github.io/work/surf-media-gmbh/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/work/surf-media-gmbh/</guid>
-      <description> Designed, implemented and tested web services for an advertising performance network in a Deis-based microservices architecture REST APIs and message consumers using Java/Dropwizard and Python/Flask/DRF AngularJS-based frontend Developed a SOCKS5 proxy server to interface with devices as part of our automated ad-testing infrastructure Mentored more junior coworkers through pair programming &amp;amp; code reviews  </description>
+      <description> Built and tested web services in a microservices architecture for an advertising performance network using Java/Dropwizard and Python/Flask/DRF Developed a proxy server to interface with mobile devices as part of our automated ad-testing infrastructure </description>
     </item>
     
   </channel>

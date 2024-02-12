@@ -5,7 +5,7 @@
         <meta name="author" content="Matt Snider">
         <meta name="description" content="">
         
-        <meta name="generator" content="Hugo 0.64.0" />
+        <meta name="generator" content="Hugo 0.111.3">
 
         <title>Matt Snider</title>
 
@@ -41,8 +41,6 @@
         
 
         
-
-        
         <li class="nav-item">
             <a href="https://matt-snider.github.io/projects/" class="nav-link">
                 Projects
@@ -50,21 +48,14 @@
         </li>
         
 
+        
         <li class="nav-item">
-            <ul class="nav-list languages">
-                <li class="lang">
-                    <a class="active">en</a>
-                </li>
-
-                
-                <li class="lang">
-                    <a href="https://matt-snider.github.io/de/projects/">de</a>
-                </li>
-                
-            </ul>
+            <a href="https://matt-snider.github.io/resume/" class="nav-link">
+                CV
+            </a>
         </li>
+        
     </ul>
-
 </nav>
 
 
@@ -75,14 +66,12 @@
 
 
 
-    
-
-
 
 <div>
     <header>
         <h1> My Projects </h1>
-        <p><p>I like to work on side projects for fun and to learn new technologies/skills. Often these are open source in which case they&rsquo;ll be on <a href="https://github.com/matt-snider">my GitHub profile</a>.</p>
+        <p><p>I enjoy learning new technologies and experimenting with them by building small projects.
+Several of these are available as open-source projects on <a href="https://github.com/matt-snider">my GitHub profile</a>.</p>
 </p>
     </header>
 
@@ -113,7 +102,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="column"> <p>I think <a href="https://todoist.com/">Todoist</a> is a fantastic productivity app, but I have recently been trying to transition to as mnay open-source &amp; self-hosted tools as possible. This led me to build a tool to migrate all my tasks from Todoist into Taskwarrior.</p> </div>
+                <div class="column"> <p>I used <a href="https://todoist.com/">Todoist</a> for a long time and it is a really great productivity app. But
+after trying <a href="https://taskwarrior.org/">Taskwarrior</a>, I knew I wanted to switch. I enjoy using and
+building CLI tools, so I decided to build a tool to migrate all my tasks from Todoist into
+Taskwarrior.</p> </div>
             </div>
         </article>
         <hr>
@@ -136,7 +128,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="column"> <p>I don&rsquo;t play guitar much anymore, but when I do it&rsquo;s good if I can quickly access tabs of songs I&rsquo;m learning. I also prefer storing data in plain text as opposed to just linking to a guitar tab site. That way they are also available offline.</p> </div>
+                <div class="column"> <p>I&rsquo;m an avid user of <a href="https://www.vim.org/">Vim</a> and I wanted to be able to store guitar tabs locally so
+I don&rsquo;t need to open slow, ad-riddled websites each time. I don&rsquo;t really like programming
+with VimScript, but it gets the job done, so I ended up using it to build a plugin to view
+guitar tabs, including a guitar chord viewer and autoscroll feature.</p> </div>
             </div>
         </article>
         <hr>
@@ -161,7 +156,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="column"> <p>I started this project while learning German so I was using <a href="https://www.dict.cc/">dict.cc</a> frequently. Being able to run lookups from the terminal instead of having to navigate to the webpage each time was a big boon. I also wanted to improve my knowledge of Haskell so this was a good starting project.</p> </div>
+                <div class="column"> <p>While learning German, I found that frequently looking up translations on
+<a href="https://www.dict.cc/">dict.cc</a> was slow - open the browser, type in the URL, wait for it to load, type
+in the search, etc. Being able to do this in the terminal sped things up. I also wanted to
+improve my knowledge of Haskell and this was a good first project.</p> </div>
             </div>
         </article>
         <hr>
@@ -190,7 +188,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="column"> <p>I use <a href="https://github.com/vimwiki/vimwiki">VimWiki</a> a lot in my daily life as my <a href="https://en.wikipedia.org/wiki/Personal_knowledge_base">personal knowledge base/wiki</a> and journal. I tag my notes extensively but found the built-in tag search in Vim and VimWiki seriously lacking.</p> </div>
+                <div class="column"> <p>I use <a href="https://github.com/vimwiki/vimwiki">VimWiki</a> daily for my notes and journal. I tag my notes extensively, but
+found that the built-in tag search in Vim and VimWiki were too basic, supporting only
+searches like &ldquo;find all entries with the tag <code>work</code>&rdquo;. I wanted to be able to do something
+like &ldquo;find all entries with the tag <code>work</code> and <code>python</code> but not <code>flask</code>&rdquo;. I also was very
+interested in Rust at the time, so I wanted to build something using it and get to know
+the language better.</p> </div>
             </div>
         </article>
         <hr>
@@ -209,6 +212,8 @@
                         
                             <code>Python</code>
                         
+                            <code>Async</code>
+                        
                             <code>SOCKS5</code>
                         
                             <code>Proxy</code>
@@ -217,87 +222,9 @@
                 </div>
             </div>
             <div class="row">
-                <div class="column"> <p>I wanted to experiment with Python&rsquo;s asyncio and build some kind of server application. SOCKS is a simple binary protocol that is well documented and easy to implement from the <a href="https://tools.ietf.org/html/rfc1928">RFC</a>.</p> </div>
-            </div>
-        </article>
-        <hr>
-        
-        <article>
-            <div class="row">
-                <div class="column column-60">
-                    <h2>
-                        <a href="/projects/angularjs-bootstrap/">
-                            AngularJS Bootstrap
-                        </a>
-                    </h2>
-                </div>
-                <div class="column column-40 py-3">
-                    <span class="float-right">
-                        
-                            <code>AngularJS</code>
-                        
-                            <code>Javascript</code>
-                        
-                    </span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="column"> <p>This is a now abandoned attempt at building a Bootstrap4-based component framework for AngularJS.</p>
-<p>At the time, the company where I worked used AngularJS and Bootstrap, but decided against several existing component frameworks for various reasons. I decided it would be fun (and maybe even useful!) to build one myself.</p> </div>
-            </div>
-        </article>
-        <hr>
-        
-        <article>
-            <div class="row">
-                <div class="column column-60">
-                    <h2>
-                        <a href="/projects/monkeylang/">
-                            monkeylang
-                        </a>
-                    </h2>
-                </div>
-                <div class="column column-40 py-3">
-                    <span class="float-right">
-                        
-                            <code>Go</code>
-                        
-                            <code>REPL</code>
-                        
-                            <code>Parser</code>
-                        
-                            <code>Interpreter</code>
-                        
-                    </span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="column"> <p>This is the code as I follow along with the excellent book <a href="https://interpreterbook.com/"><em>Writing an Interpreter in Go</em></a> by Thorsten Ball. The book introduces the reader to the Go programming language and builds an interpreter and REPL for a C-like programming language called <em>monkey</em>.</p> </div>
-            </div>
-        </article>
-        <hr>
-        
-        <article>
-            <div class="row">
-                <div class="column column-60">
-                    <h2>
-                        <a href="/projects/open-gift-exchange/">
-                            Open Gift Exchange
-                        </a>
-                    </h2>
-                </div>
-                <div class="column column-40 py-3">
-                    <span class="float-right">
-                        
-                            <code>Haskell</code>
-                        
-                            <code>Servant</code>
-                        
-                    </span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="column"> <p>This is very much a WIP and I haven&rsquo;t had much time for it lately, but the idea is to build an open-source solution for doing gift exchanges (e.g. <em>Secret Santa</em>). This was motivated by using other &ldquo;free&rdquo; gift exchange web apps and seeing how much advertising &amp; personal data harvesting was going on. I also wanted to learn more about Haskell and <a href="https://github.com/haskell-servant/servant">Servant</a>.</p> </div>
+                <div class="column"> <p>I wanted to experiment with Python&rsquo;s asyncio and build a server application. SOCKS is
+a simple binary protocol that is well documented and was easy to implement from the
+<a href="https://tools.ietf.org/html/rfc1928">RFC</a>.</p> </div>
             </div>
         </article>
         <hr>
@@ -322,47 +249,32 @@
                 </div>
             </div>
             <div class="row">
-                <div class="column"> This was a fun one to learn more about VueJS. I play guitar (or used to at least&hellip;) and thought it would be cool to build chord diagrams and an editor for them.
-Here what the chord diagrams look like:
-  Other than those basic features I haven&rsquo;t really worked on it much and don&rsquo;t have plans to.
-There is also a basic demo here. </div>
+                <div class="column"> <p>I was curious to learn more about <a href="vuejs">VueJS</a>, so I built a library to render and edit
+guitar chords.</p> </div>
             </div>
         </article>
         <hr>
         
-        <article>
-            <div class="row">
-                <div class="column column-60">
-                    <h2>
-                        <a href="/projects/work-journal/">
-                            Work Journal
-                        </a>
-                    </h2>
-                </div>
-                <div class="column column-40 py-3">
-                    <span class="float-right">
-                        
-                            <code>Elm</code>
-                        
-                            <code>PostgreSQL</code>
-                        
-                    </span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="column"> <p>This was a fun little TODO/productivity app to try out two technologies I was very curious about: <a href="https://elm-lang.org">Elm</a> and <a href="http://postgrest.org/">PostgREST</a>. It consists of a PostgreSQL-based RESTful API and a simple web interface.</p> </div>
-            </div>
-        </article>
-        <hr>
-        
-    </div>
-
-</div>
+    </div></div>
 
             </div>
 
             <footer class="footer">
-    © 2020 Matt Snider
+    <div class="social">
+    <a href="https://github.com/matt-snider" class="social-link">
+        <img src="/icons/github.svg">
+    </a>
+    <a href="https://gitlab.com/matt-snider" class="social-link">
+        <img src="/icons/gitlab.svg">
+    </a>
+    <a href="mailto:[myfirstname].[mylastname]@protonmail.com" class="social-link">
+        <img src="/icons/mail.svg">
+    </a>
+</div>
+
+
+
+    © 2024 Matt Snider
 </footer>
 
 

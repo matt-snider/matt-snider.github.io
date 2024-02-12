@@ -5,10 +5,6 @@
     <link>https://matt-snider.github.io/categories/</link>
     <description>Recent content in Categories on Matt Snider</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>© 2020 Matt Snider</copyright>
-    
-	<atom:link href="https://matt-snider.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>© 2024 Matt Snider</copyright><atom:link href="https://matt-snider.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

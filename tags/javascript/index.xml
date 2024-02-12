@@ -5,40 +5,15 @@
     <link>https://matt-snider.github.io/tags/javascript/</link>
     <description>Recent content in Javascript on Matt Snider</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>© 2020 Matt Snider</copyright>
-    
-	<atom:link href="https://matt-snider.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>AngularJS Bootstrap</title>
-      <link>https://matt-snider.github.io/projects/angularjs-bootstrap/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matt-snider.github.io/projects/angularjs-bootstrap/</guid>
-      <description>&lt;p&gt;This is a now abandoned attempt at building a Bootstrap4-based component framework for AngularJS.&lt;/p&gt;
-&lt;p&gt;At the time, the company where I worked used AngularJS and Bootstrap, but decided against several existing component frameworks for various reasons. I decided it would be fun (and maybe even useful!) to build one myself.&lt;/p&gt;</description>
-    </item>
-    
+    <copyright>© 2024 Matt Snider</copyright><atom:link href="https://matt-snider.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vue Guitar Chords</title>
       <link>https://matt-snider.github.io/projects/vue-guitar-chords/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/projects/vue-guitar-chords/</guid>
-      <description>This was a fun one to learn more about VueJS. I play guitar (or used to at least&amp;hellip;) and thought it would be cool to build chord diagrams and an editor for them.
-Here what the chord diagrams look like:
-  Other than those basic features I haven&amp;rsquo;t really worked on it much and don&amp;rsquo;t have plans to.
-There is also a basic demo here.</description>
-    </item>
-    
-    <item>
-      <title>Frickl</title>
-      <link>https://matt-snider.github.io/work/frickl/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matt-snider.github.io/work/frickl/</guid>
-      <description>A failed attempt at starting a new video-sharing platform. Despite not working out, it was a great experience and we learned a lot.</description>
+      <description>&lt;p&gt;I was curious to learn more about &lt;a href=&#34;vuejs&#34;&gt;VueJS&lt;/a&gt;, so I built a library to render and edit
+guitar chords.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -47,7 +22,7 @@ There is also a basic demo here.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/work/surf-media-gmbh/</guid>
-      <description> Designed, implemented and tested web services for an advertising performance network in a Deis-based microservices architecture REST APIs and message consumers using Java/Dropwizard and Python/Flask/DRF AngularJS-based frontend Developed a SOCKS5 proxy server to interface with devices as part of our automated ad-testing infrastructure Mentored more junior coworkers through pair programming &amp;amp; code reviews  </description>
+      <description> Built and tested web services in a microservices architecture for an advertising performance network using Java/Dropwizard and Python/Flask/DRF Developed a proxy server to interface with mobile devices as part of our automated ad-testing infrastructure </description>
     </item>
     
   </channel>

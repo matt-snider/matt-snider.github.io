@@ -5,27 +5,19 @@
     <link>https://matt-snider.github.io/tags/rust/</link>
     <description>Recent content in Rust on Matt Snider</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>© 2020 Matt Snider</copyright>
-    
-	<atom:link href="https://matt-snider.github.io/tags/rust/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>© 2024 Matt Snider</copyright><atom:link href="https://matt-snider.github.io/tags/rust/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vim TagQuery</title>
       <link>https://matt-snider.github.io/projects/vim-tagquery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/projects/vim-tagquery/</guid>
-      <description>&lt;p&gt;I use &lt;a href=&#34;https://github.com/vimwiki/vimwiki&#34;&gt;VimWiki&lt;/a&gt; a lot in my daily life as my &lt;a href=&#34;https://en.wikipedia.org/wiki/Personal_knowledge_base&#34;&gt;personal knowledge base/wiki&lt;/a&gt; and journal. I tag my notes extensively but found the built-in tag search in Vim and VimWiki seriously lacking.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Frickl</title>
-      <link>https://matt-snider.github.io/work/frickl/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matt-snider.github.io/work/frickl/</guid>
-      <description>A failed attempt at starting a new video-sharing platform. Despite not working out, it was a great experience and we learned a lot.</description>
+      <description>&lt;p&gt;I use &lt;a href=&#34;https://github.com/vimwiki/vimwiki&#34;&gt;VimWiki&lt;/a&gt; daily for my notes and journal. I tag my notes extensively, but
+found that the built-in tag search in Vim and VimWiki were too basic, supporting only
+searches like &amp;ldquo;find all entries with the tag &lt;code&gt;work&lt;/code&gt;&amp;rdquo;. I wanted to be able to do something
+like &amp;ldquo;find all entries with the tag &lt;code&gt;work&lt;/code&gt; and &lt;code&gt;python&lt;/code&gt; but not &lt;code&gt;flask&lt;/code&gt;&amp;rdquo;. I also was very
+interested in Rust at the time, so I wanted to build something using it and get to know
+the language better.&lt;/p&gt;</description>
     </item>
     
   </channel>

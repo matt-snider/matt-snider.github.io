@@ -5,11 +5,7 @@
     <link>https://matt-snider.github.io/tags/</link>
     <description>Recent content in Tags on Matt Snider</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>© 2020 Matt Snider</copyright>
-    
-	<atom:link href="https://matt-snider.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>© 2024 Matt Snider</copyright><atom:link href="https://matt-snider.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Angular</title>
       <link>https://matt-snider.github.io/tags/angular/</link>
@@ -38,6 +34,24 @@
     </item>
     
     <item>
+      <title>Async</title>
+      <link>https://matt-snider.github.io/tags/async/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/tags/async/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AWS</title>
+      <link>https://matt-snider.github.io/tags/aws/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>C#</title>
       <link>https://matt-snider.github.io/tags/c#/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -56,29 +70,20 @@
     </item>
     
     <item>
-      <title>Deis</title>
-      <link>https://matt-snider.github.io/tags/deis/</link>
+      <title>DB Scheduler</title>
+      <link>https://matt-snider.github.io/tags/db-scheduler/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matt-snider.github.io/tags/deis/</guid>
+      <guid>https://matt-snider.github.io/tags/db-scheduler/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Django</title>
-      <link>https://matt-snider.github.io/tags/django/</link>
+      <title>Django &#43; DRF</title>
+      <link>https://matt-snider.github.io/tags/django-&#43;-drf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matt-snider.github.io/tags/django/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Django Rest Framework</title>
-      <link>https://matt-snider.github.io/tags/django-rest-framework/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matt-snider.github.io/tags/django-rest-framework/</guid>
+      <guid>https://matt-snider.github.io/tags/django-&#43;-drf/</guid>
       <description></description>
     </item>
     
@@ -110,33 +115,6 @@
     </item>
     
     <item>
-      <title>Elm</title>
-      <link>https://matt-snider.github.io/tags/elm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matt-snider.github.io/tags/elm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Flask</title>
-      <link>https://matt-snider.github.io/tags/flask/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matt-snider.github.io/tags/flask/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GitLab</title>
-      <link>https://matt-snider.github.io/tags/gitlab/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matt-snider.github.io/tags/gitlab/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>GitLab CI</title>
       <link>https://matt-snider.github.io/tags/gitlab-ci/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -146,29 +124,11 @@
     </item>
     
     <item>
-      <title>Go</title>
-      <link>https://matt-snider.github.io/tags/go/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matt-snider.github.io/tags/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Haskell</title>
       <link>https://matt-snider.github.io/tags/haskell/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/tags/haskell/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Interpreter</title>
-      <link>https://matt-snider.github.io/tags/interpreter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matt-snider.github.io/tags/interpreter/</guid>
       <description></description>
     </item>
     
@@ -200,29 +160,29 @@
     </item>
     
     <item>
-      <title>JIRA</title>
-      <link>https://matt-snider.github.io/tags/jira/</link>
+      <title>JOOQ</title>
+      <link>https://matt-snider.github.io/tags/jooq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matt-snider.github.io/tags/jira/</guid>
+      <guid>https://matt-snider.github.io/tags/jooq/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Kohana</title>
-      <link>https://matt-snider.github.io/tags/kohana/</link>
+      <title>Kubernetes</title>
+      <link>https://matt-snider.github.io/tags/kubernetes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matt-snider.github.io/tags/kohana/</guid>
+      <guid>https://matt-snider.github.io/tags/kubernetes/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Maven</title>
-      <link>https://matt-snider.github.io/tags/maven/</link>
+      <title>Metabase</title>
+      <link>https://matt-snider.github.io/tags/metabase/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matt-snider.github.io/tags/maven/</guid>
+      <guid>https://matt-snider.github.io/tags/metabase/</guid>
       <description></description>
     </item>
     
@@ -254,20 +214,20 @@
     </item>
     
     <item>
+      <title>Nix</title>
+      <link>https://matt-snider.github.io/tags/nix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/tags/nix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>NServiceBus</title>
       <link>https://matt-snider.github.io/tags/nservicebus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/tags/nservicebus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Parser</title>
-      <link>https://matt-snider.github.io/tags/parser/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matt-snider.github.io/tags/parser/</guid>
       <description></description>
     </item>
     
@@ -317,29 +277,11 @@
     </item>
     
     <item>
-      <title>React</title>
-      <link>https://matt-snider.github.io/tags/react/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matt-snider.github.io/tags/react/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Redis</title>
       <link>https://matt-snider.github.io/tags/redis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/tags/redis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>REPL</title>
-      <link>https://matt-snider.github.io/tags/repl/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matt-snider.github.io/tags/repl/</guid>
       <description></description>
     </item>
     
@@ -362,38 +304,11 @@
     </item>
     
     <item>
-      <title>Sentry</title>
-      <link>https://matt-snider.github.io/tags/sentry/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matt-snider.github.io/tags/sentry/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Servant</title>
-      <link>https://matt-snider.github.io/tags/servant/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matt-snider.github.io/tags/servant/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>SOCKS5</title>
       <link>https://matt-snider.github.io/tags/socks5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/tags/socks5/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Swing</title>
-      <link>https://matt-snider.github.io/tags/swing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matt-snider.github.io/tags/swing/</guid>
       <description></description>
     </item>
     
@@ -425,16 +340,7 @@
     </item>
     
     <item>
-      <title>Tornado</title>
-      <link>https://matt-snider.github.io/tags/tornado/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matt-snider.github.io/tags/tornado/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Typescript</title>
+      <title>TypeScript</title>
       <link>https://matt-snider.github.io/tags/typescript/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

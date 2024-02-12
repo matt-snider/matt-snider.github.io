@@ -5,18 +5,14 @@
     <link>https://matt-snider.github.io/tags/microsoft-sql-server/</link>
     <description>Recent content in Microsoft SQL Server on Matt Snider</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>© 2020 Matt Snider</copyright>
-    
-	<atom:link href="https://matt-snider.github.io/tags/microsoft-sql-server/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>© 2024 Matt Snider</copyright><atom:link href="https://matt-snider.github.io/tags/microsoft-sql-server/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ceridian Dayforce</title>
       <link>https://matt-snider.github.io/work/ceridian-dayforce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/work/ceridian-dayforce/</guid>
-      <description> Spearheaded the development of a new internal toolset for implementation consultants to accelerate the implementation cycle The toolset consisted of GUIs built with C#/WPF &amp;amp; Java/JavaFX/Swing, and a C# WebAPI Backend  </description>
+      <description> Led the development of a new internal toolset for implementation consultants to accelerate the implementation cycle, which was later made into a dedicated development team The tools were built using C# and WPF as well as Java and JavaFX and included a Windows installer and updater </description>
     </item>
     
     <item>
@@ -25,7 +21,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/work/dataport/</guid>
-      <description> Full-Stack web development Service Oriented Architecture Service Bus  </description>
+      <description> Development of dWorkflow, a workflow engine focused on the digitalization of document-based admistration processes The application consister of a REST API, NServiceBus to power the business logic and long-running workflow processes, and an Angular frontend. </description>
     </item>
     
   </channel>
