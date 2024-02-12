@@ -59,11 +59,18 @@ footer {
   size: letter;
   margin: 0;
 }
+@-moz-document url-prefix() { /* only for Firefox, page margin - 5mm */
+    @page {margin:25mm;}
+}
 
 @media print {
     .container.content {
         margin: 0 !important;
         box-shadow: 0;
+    }
+
+    .work-entry {
+        break-inside: avoid;
     }
 }
 

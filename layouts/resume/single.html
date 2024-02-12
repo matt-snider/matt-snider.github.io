@@ -23,7 +23,7 @@
                 {{ end }}
 
                 {{ with .Site.Params.social.email }}
-                <a href="{{ . }}" class="social-link">
+                <a href="mailto:{{ . }}" class="social-link">
                     <img src="/icons/mail.svg" class="icon">
                     <span> {{ . }} </span>
                 </a>
@@ -44,10 +44,10 @@
                 {{ end }}
 
                 {{ with .Site.Params.social.phone }}
-                <div>
+                <a href="tel:{{ . }}">
                     <img src="/icons/phone.svg" class="icon">
                     <span> {{ . }} </span>
-                </div>
+                </a>
                 {{ end }}
             </div>
         </div>
