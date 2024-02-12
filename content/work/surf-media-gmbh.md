@@ -16,8 +16,6 @@ tags:
     # Frameworks
     - Dropwizard
     - Django + DRF
-    - Tornado
-    - Flask
     - AngularJS
 
     # Databases
@@ -35,11 +33,8 @@ tags:
     - GitLab CI
 ---
 
-- Designed, implemented and tested web services for an advertising performance network in
-  a microservices architecture
-- REST APIs and message consumers using Java/Dropwizard and Python/Flask/DRF
-- AngularJS-based frontend
+- Built and tested web services in a microservices architecture for an advertising
+  performance network using Java/Dropwizard and Python/Flask/DRF
 - Developed a proxy server to interface with mobile devices as part of our automated
   ad-testing infrastructure
-- Mentored more junior coworkers through pair programming & code reviews
 

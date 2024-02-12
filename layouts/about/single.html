@@ -1,31 +1,5 @@
 {{ define "content" }}
-
-{{/* Merge translated pages so we fall back to English */}}
 {{ $pages := .Site.RegularPages }}
-{{ range .Site.Home.Translations }}
-    {{ $pages = $pages | lang.Merge .Site.RegularPages }}
-{{ end }}
-
-{{/* Organize pages by tag, starting with current laguage */}}
-{{ $tags := newScratch }}
-{{ range $tag, $value := .Site.Taxonomies.tags }}
-    {{ $tags.Set $tag $value.Pages }}
-{{ end }}
-
-{{/* Fall back to another language if missing */}}
-{{ range .Site.Home.Translations }}
-    {{ range $tag, $value := .Site.Taxonomies.tags }}
-        {{ $pages := $tags.Get $tag }}
-        {{ $altPages := $value.Pages }}
-
-        {{ if eq $pages nil }}
-            {{ $tags.Set $tag $altPages }}
-        {{ else }}
-            {{ $tags.Set $tag ($pages | lang.Merge $altPages) }}
-        {{ end }}
-    {{ end }}
-{{ end }}
-
 <div class="my-3">
     <h2> {{ .Title }} </h2>
 
@@ -55,12 +29,5 @@
 </div>
 
 
-<div class="my-3">
-    <h3> Languages </h3>
-
-    <div class="my-3">
-        <div> English: native </div>
-        <div> German: proficient </div>
-    </div>
-</div>
+{{ partial "languages.html" . }}
 {{ end }}

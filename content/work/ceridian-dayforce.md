@@ -23,9 +23,9 @@ tags:
     - Apache ANT
 ---
 
-- I lead the development of a new internal toolset for implementation
-  consultants to accelerate the implementation cycle, which was later made into
-  a dedicated development team
+- Led the development of a new internal toolset for implementation consultants
+  to accelerate the implementation cycle, which was later made into a dedicated
+  development team
 - The tools were built using C# and WPF as well as Java and JavaFX and included
   a Windows installer and updater
 

@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background: rgb(204,204,204); 
+    background: rgb(204,204,204);
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -18,8 +18,9 @@ footer {
 }
 
 .container.content {
-    width: 210mm;
-    height: 297mm;
+    width: 215.9mm;
+    /* 279.4mm * 2 */
+    height: 558.8mm;
     margin: 0 auto;
     margin-bottom: 5mm;
     margin-top: 5mm;
@@ -55,13 +56,13 @@ footer {
  * Print styles
  */
 @page {
-  size: A4;
+  size: letter;
   margin: 0;
 }
 
 @media print {
     .container.content {
-        margin: 0;
+        margin: 0 !important;
         box-shadow: 0;
     }
 }
@@ -82,6 +83,7 @@ footer {
     border-radius: unset;
     padding: 2px;
     margin-left: 10%;
+    margin-bottom: 7px;
 }
 
 .resume .summary .name {

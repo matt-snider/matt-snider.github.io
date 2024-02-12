@@ -1,9 +1,6 @@
 {{ define "content" }}
-{{/* Merge translated pages so we fall back to English for /about */}}
+
 {{ $pages := .Site.RegularPages }}
-{{ range .Site.Home.Translations }}
-    {{ $pages = $pages | lang.Merge .Site.RegularPages }}
-{{ end }}
 {{ $pages := where $pages "Type" "projects" }}
 
 <div>

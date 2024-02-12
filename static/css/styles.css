@@ -13,21 +13,21 @@ body {
 
 a {
     transition: color .4s;
-    color: #265C83;
+    color: rgb(52, 53, 56);
 }
 
 a:link,
 a:visited {
-    color: #265c83;
+    color: rgb(52, 53, 56);
 }
 
 a:hover {
-    color: #7fdbff;
+    color: rgb(52, 53, 56, 0.5);
 }
 
 a:active  {
     transition: color .3s;
-    color: #007be6;
+    color: rgb(52, 53, 56, 0.5);
 }
 
 hr {
@@ -75,8 +75,7 @@ hr {
 .intro {
     display: flex;
     height: 100%;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .intro h1, .intro h2, .intro h3, .intro h4, .intro h5, .intro h6 {
@@ -84,16 +83,18 @@ hr {
 }
 
 .intro-summary {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+}
+
+.summary-text {
+    margin-top: 50px;
 }
 
 .face {
+    float:left;
     height: 250px;
     border: 1px solid #dee2e6;
-    border-radius: 50%;
     padding: 2px;
+    margin-right: 12px;
 }
 
 /**
@@ -132,9 +133,7 @@ hr {
 }
 
 .nav-link {
-    font-size: 1.75em;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-size: 1.9em;
     text-decoration: none;
 }
 
