@@ -15,7 +15,7 @@ important "Done."
 # Make commit and push
 cd public/
 important "Committing changes..."
-git add .
+git add -f .
 git commit -m "Rebuilding docs (`date`)"
 important "Done"
 
