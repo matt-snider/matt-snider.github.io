@@ -1,0 +1,164 @@
+/**
+ * General
+ */
+body {
+    font-family: "Fira Mono", monospace;
+
+    color: #323232;
+    background-color: #fefefe;
+
+    margin: 0;
+}
+
+
+a {
+    transition: color .4s;
+    color: rgb(52, 53, 56);
+}
+
+a:link,
+a:visited {
+    color: rgb(52, 53, 56);
+}
+
+a:hover {
+    color: rgb(52, 53, 56, 0.5);
+}
+
+a:active  {
+    transition: color .3s;
+    color: rgb(52, 53, 56, 0.5);
+}
+
+hr {
+    margin: 1.5rem 0;
+}
+
+.feather {
+    width: 24px;
+    height: 24px;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+}
+
+/**
+ * Spacing utilities
+ */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.content {
+    flex-grow: 1;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    flex-shrink: 1;
+    text-align: center;
+}
+
+.ml-neg-1 {
+    margin-left: -0.25rem !important;
+}
+
+/**
+ * Intro
+ */
+.intro {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.intro h1, .intro h2, .intro h3, .intro h4, .intro h5, .intro h6 {
+    margin-top: 0.5rem;
+}
+
+.intro-summary {
+}
+
+.summary-text {
+    margin-top: 50px;
+}
+
+.face {
+    float:left;
+    height: 250px;
+    border: 1px solid #dee2e6;
+    padding: 2px;
+    margin-right: 12px;
+}
+
+/**
+ * Social
+ */
+.social-link, .social-link:hover {
+    text-decoration: none;
+}
+
+.social-link:hover {
+    opacity: 0.75;
+}
+
+
+/**
+ * Navigation
+ */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+
+    border-bottom: 1px solid black;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+}
+
+.nav-item {
+    padding: 0 5px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.nav-link {
+    font-size: 1.9em;
+    text-decoration: none;
+}
+
+a.nav-link:hover {
+    text-decoration: underline;
+}
+
+
+/**
+ * Education
+ */
+
+.education-entry .institution {
+    font-weight: bold;
+}
+
+.education-entry .degree {
+    font-style: italic;
+}
+
+/**
+ * Project-specific
+ */
+
+img[alt=vue-guitar-chords-image] {
+    width: 250px;
+}
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NServiceBus on Matt Snider</title>
+    <link>https://matt-snider.github.io/tags/nservicebus/</link>
+    <description>Recent content in NServiceBus on Matt Snider</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>© 2024 Matt Snider</copyright><atom:link href="https://matt-snider.github.io/tags/nservicebus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dataport AöR</title>
+      <link>https://matt-snider.github.io/work/dataport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/work/dataport/</guid>
+      <description> Development of dWorkflow, a workflow engine focused on the digitalization of document-based admistration processes The application consister of a REST API, NServiceBus to power the business logic and long-running workflow processes, and an Angular frontend. </description>
+    </item>
+    
+  </channel>
+</rss>

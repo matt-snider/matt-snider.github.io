@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About Me on Matt Snider</title>
+    <link>https://matt-snider.github.io/</link>
+    <description>Recent content in About Me on Matt Snider</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>© 2024 Matt Snider</copyright><atom:link href="https://matt-snider.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Todoist Taskwarrior</title>
+      <link>https://matt-snider.github.io/projects/todoist-taskwarrior/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/projects/todoist-taskwarrior/</guid>
+      <description>&lt;p&gt;I used &lt;a href=&#34;https://todoist.com/&#34;&gt;Todoist&lt;/a&gt; for a long time and it is a really great productivity app. But
+after trying &lt;a href=&#34;https://taskwarrior.org/&#34;&gt;Taskwarrior&lt;/a&gt;, I knew I wanted to switch. I enjoy using and
+building CLI tools, so I decided to build a tool to migrate all my tasks from Todoist into
+Taskwarrior.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Vim Guitar Tab Viewer</title>
+      <link>https://matt-snider.github.io/projects/vim-guitar-tab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/projects/vim-guitar-tab/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m an avid user of &lt;a href=&#34;https://www.vim.org/&#34;&gt;Vim&lt;/a&gt; and I wanted to be able to store guitar tabs locally so
+I don&amp;rsquo;t need to open slow, ad-riddled websites each time. I don&amp;rsquo;t really like programming
+with VimScript, but it gets the job done, so I ended up using it to build a plugin to view
+guitar tabs, including a guitar chord viewer and autoscroll feature.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>dict.cc CLI Client</title>
+      <link>https://matt-snider.github.io/projects/dict-cc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/projects/dict-cc/</guid>
+      <description>&lt;p&gt;While learning German, I found that frequently looking up translations on
+&lt;a href=&#34;https://www.dict.cc/&#34;&gt;dict.cc&lt;/a&gt; was slow - open the browser, type in the URL, wait for it to load, type
+in the search, etc. Being able to do this in the terminal sped things up. I also wanted to
+improve my knowledge of Haskell and this was a good first project.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Vim TagQuery</title>
+      <link>https://matt-snider.github.io/projects/vim-tagquery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/projects/vim-tagquery/</guid>
+      <description>&lt;p&gt;I use &lt;a href=&#34;https://github.com/vimwiki/vimwiki&#34;&gt;VimWiki&lt;/a&gt; daily for my notes and journal. I tag my notes extensively, but
+found that the built-in tag search in Vim and VimWiki were too basic, supporting only
+searches like &amp;ldquo;find all entries with the tag &lt;code&gt;work&lt;/code&gt;&amp;rdquo;. I wanted to be able to do something
+like &amp;ldquo;find all entries with the tag &lt;code&gt;work&lt;/code&gt; and &lt;code&gt;python&lt;/code&gt; but not &lt;code&gt;flask&lt;/code&gt;&amp;rdquo;. I also was very
+interested in Rust at the time, so I wanted to build something using it and get to know
+the language better.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>SOCKS5 Proxy</title>
+      <link>https://matt-snider.github.io/projects/socks5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/projects/socks5/</guid>
+      <description>&lt;p&gt;I wanted to experiment with Python&amp;rsquo;s asyncio and build a server application. SOCKS is
+a simple binary protocol that is well documented and was easy to implement from the
+&lt;a href=&#34;https://tools.ietf.org/html/rfc1928&#34;&gt;RFC&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Vue Guitar Chords</title>
+      <link>https://matt-snider.github.io/projects/vue-guitar-chords/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/projects/vue-guitar-chords/</guid>
+      <description>&lt;p&gt;I was curious to learn more about &lt;a href=&#34;vuejs&#34;&gt;VueJS&lt;/a&gt;, so I built a library to render and edit
+guitar chords.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://matt-snider.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://matt-snider.github.io/education/university-of-toronto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/education/university-of-toronto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ceridian Dayforce</title>
+      <link>https://matt-snider.github.io/work/ceridian-dayforce/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/work/ceridian-dayforce/</guid>
+      <description> Led the development of a new internal toolset for implementation consultants to accelerate the implementation cycle, which was later made into a dedicated development team The tools were built using C# and WPF as well as Java and JavaFX and included a Windows installer and updater </description>
+    </item>
+    
+    <item>
+      <title>Dataport AöR</title>
+      <link>https://matt-snider.github.io/work/dataport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/work/dataport/</guid>
+      <description> Development of dWorkflow, a workflow engine focused on the digitalization of document-based admistration processes The application consister of a REST API, NServiceBus to power the business logic and long-running workflow processes, and an Angular frontend. </description>
+    </item>
+    
+    <item>
+      <title>Fresh City Farms</title>
+      <link>https://matt-snider.github.io/work/fresh-city-farms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/work/fresh-city-farms/</guid>
+      <description>Lead team of software engineers using expertise in system design, architecture, and planning of software projects Build &amp;amp; maintain cloud infrastructure as code using Terraform Collaborate with developers and provide guidance via code reviews Served as the technical lead for a project to integrate the systems from both companies after the acquisition of Mama Earth Organics. This included migration of data such as customer passwords, account preferences, subscriptions and invoices.</description>
+    </item>
+    
+    <item>
+      <title>Matt Snider - Resume/CV</title>
+      <link>https://matt-snider.github.io/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/resume/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Surf Media Gmbh</title>
+      <link>https://matt-snider.github.io/work/surf-media-gmbh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/work/surf-media-gmbh/</guid>
+      <description> Built and tested web services in a microservices architecture for an advertising performance network using Java/Dropwizard and Python/Flask/DRF Developed a proxy server to interface with mobile devices as part of our automated ad-testing infrastructure </description>
+    </item>
+    
+  </channel>
+</rss>

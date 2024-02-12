@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on Matt Snider</title>
+    <link>https://matt-snider.github.io/tags/java/</link>
+    <description>Recent content in Java on Matt Snider</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>© 2024 Matt Snider</copyright><atom:link href="https://matt-snider.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ceridian Dayforce</title>
+      <link>https://matt-snider.github.io/work/ceridian-dayforce/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/work/ceridian-dayforce/</guid>
+      <description> Led the development of a new internal toolset for implementation consultants to accelerate the implementation cycle, which was later made into a dedicated development team The tools were built using C# and WPF as well as Java and JavaFX and included a Windows installer and updater </description>
+    </item>
+    
+    <item>
+      <title>Fresh City Farms</title>
+      <link>https://matt-snider.github.io/work/fresh-city-farms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/work/fresh-city-farms/</guid>
+      <description>Lead team of software engineers using expertise in system design, architecture, and planning of software projects Build &amp;amp; maintain cloud infrastructure as code using Terraform Collaborate with developers and provide guidance via code reviews Served as the technical lead for a project to integrate the systems from both companies after the acquisition of Mama Earth Organics. This included migration of data such as customer passwords, account preferences, subscriptions and invoices.</description>
+    </item>
+    
+    <item>
+      <title>Surf Media Gmbh</title>
+      <link>https://matt-snider.github.io/work/surf-media-gmbh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/work/surf-media-gmbh/</guid>
+      <description> Built and tested web services in a microservices architecture for an advertising performance network using Java/Dropwizard and Python/Flask/DRF Developed a proxy server to interface with mobile devices as part of our automated ad-testing infrastructure </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Matt Snider">
+        <meta name="description" content="https://matt-snider.github.io/">
+        
+        <meta name="generator" content="Hugo 0.111.3">
+
+        <title>Matt Snider</title>
+
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/bootstrap-spacing-utils.css">
+        <link rel="stylesheet" href="/css/milligram.min.css">
+
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="/css/fira-mono-400-700.css">
+
+        
+        
+    </head>
+    <body>
+        <main class="wrapper">
+            
+                <nav class="navbar">
+    <ul class="nav-list">
+        <li class="nav-item">
+            <a href="/" class="nav-link">
+                Matt Snider
+            </a>
+        </li>
+    </ul>
+
+    <ul class="nav-list">
+        
+        <li class="nav-item">
+            <a href="https://matt-snider.github.io/about/" class="nav-link">
+                About
+            </a>
+        </li>
+        
+
+        
+        <li class="nav-item">
+            <a href="https://matt-snider.github.io/projects/" class="nav-link">
+                Projects
+            </a>
+        </li>
+        
+
+        
+        <li class="nav-item">
+            <a href="https://matt-snider.github.io/resume/" class="nav-link">
+                CV
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+
+
+            
+
+            <div class="content container">
+                
+<div>
+    <h1>Vim TagQuery</h1>
+    <div class="ml-2">
+        <div>
+            <span> Links: </span>
+            <span>
+                
+                    <a href="https://github.com/matt-snider/ctags-query">
+                        <code>
+                        GitHub (ctags-query)
+                        </code>
+                    </a>
+                
+                    <a href="https://github.com/matt-snider/vim-tagquery">
+                        <code>
+                        GitHub (vim-tagquery)
+                        </code>
+                    </a>
+                
+            </span>
+        </div>
+        <div>
+            <span> Tag: </span>
+            <span>
+                
+                <code>Rust</code>
+                
+                <code>Vim</code>
+                
+                <code>VimWiki</code>
+                
+                <code>CLI</code>
+                
+            </span>
+        </div>
+
+        <div class="my-5">
+            <p>I use <a href="https://github.com/vimwiki/vimwiki">VimWiki</a> daily for my notes and journal. I tag my notes extensively, but
+found that the built-in tag search in Vim and VimWiki were too basic, supporting only
+searches like &ldquo;find all entries with the tag <code>work</code>&rdquo;. I wanted to be able to do something
+like &ldquo;find all entries with the tag <code>work</code> and <code>python</code> but not <code>flask</code>&rdquo;. I also was very
+interested in Rust at the time, so I wanted to build something using it and get to know
+the language better.</p>
+<p>I decided to first build a CLI program in Rust called <a href="https://github.com/matt-snider/ctags-query">ctags-query</a>, that
+could parse tags from my notes, store them according to the <a href="http://ctags.sourceforge.net/ctags.html#TAG%20FILE%20FORMAT">CTAGS spec</a>,
+and then query them with a simple query syntax. I built the parser in plain Rust without
+using any external libraries which was a pretty interesting aspect of this project.</p>
+<pre><code>$ ctags-query 'work &amp; python &amp; parsing'
+path/to/fileX:10
+path/to/fileY:50
+path/to/fileZ:165
+
+$ ctags-query 'work &amp; python &amp; parsing'
+path/to/fileX:22
+path/to/fileY:90
+</code></pre>
+<p>After that I integrated it into Vim as a Vimscript plugin in the
+<a href="https://github.com/matt-snider/ctags-query">vim-tagquery</a> project and gave it a basic <a href="https://github.com/junegunn/fzf">FZF</a>-based search
+interface. Now it was possible to interactively query by tags within Vim!</p>
+        </div>
+    </div>
+</div>
+
+            </div>
+
+            <footer class="footer">
+    <div class="social">
+    <a href="https://github.com/matt-snider" class="social-link">
+        <img src="/icons/github.svg">
+    </a>
+    <a href="https://gitlab.com/matt-snider" class="social-link">
+        <img src="/icons/gitlab.svg">
+    </a>
+    <a href="mailto:[myfirstname].[mylastname]@protonmail.com" class="social-link">
+        <img src="/icons/mail.svg">
+    </a>
+</div>
+
+
+
+    © 2024 Matt Snider
+</footer>
+
+
+        </main>
+    </body>
+</html>
+
