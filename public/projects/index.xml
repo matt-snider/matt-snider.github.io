@@ -5,17 +5,18 @@
     <link>https://matt-snider.github.io/projects/</link>
     <description>Recent content in My Projects on Matt Snider</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>© 2024 Matt Snider</copyright><atom:link href="https://matt-snider.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2020 Matt Snider</copyright>
+    
+	<atom:link href="https://matt-snider.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Todoist Taskwarrior</title>
       <link>https://matt-snider.github.io/projects/todoist-taskwarrior/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/projects/todoist-taskwarrior/</guid>
-      <description>&lt;p&gt;I used &lt;a href=&#34;https://todoist.com/&#34;&gt;Todoist&lt;/a&gt; for a long time and it is a really great productivity app. But
-after trying &lt;a href=&#34;https://taskwarrior.org/&#34;&gt;Taskwarrior&lt;/a&gt;, I knew I wanted to switch. I enjoy using and
-building CLI tools, so I decided to build a tool to migrate all my tasks from Todoist into
-Taskwarrior.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I think &lt;a href=&#34;https://todoist.com/&#34;&gt;Todoist&lt;/a&gt; is a fantastic productivity app, but I have recently been trying to transition to as mnay open-source &amp;amp; self-hosted tools as possible. This led me to build a tool to migrate all my tasks from Todoist into Taskwarrior.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -24,10 +25,7 @@ Taskwarrior.&lt;/p&gt;</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/projects/vim-guitar-tab/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m an avid user of &lt;a href=&#34;https://www.vim.org/&#34;&gt;Vim&lt;/a&gt; and I wanted to be able to store guitar tabs locally so
-I don&amp;rsquo;t need to open slow, ad-riddled websites each time. I don&amp;rsquo;t really like programming
-with VimScript, but it gets the job done, so I ended up using it to build a plugin to view
-guitar tabs, including a guitar chord viewer and autoscroll feature.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I don&amp;rsquo;t play guitar much anymore, but when I do it&amp;rsquo;s good if I can quickly access tabs of songs I&amp;rsquo;m learning. I also prefer storing data in plain text as opposed to just linking to a guitar tab site. That way they are also available offline.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -36,10 +34,7 @@ guitar tabs, including a guitar chord viewer and autoscroll feature.&lt;/p&gt;</
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/projects/dict-cc/</guid>
-      <description>&lt;p&gt;While learning German, I found that frequently looking up translations on
-&lt;a href=&#34;https://www.dict.cc/&#34;&gt;dict.cc&lt;/a&gt; was slow - open the browser, type in the URL, wait for it to load, type
-in the search, etc. Being able to do this in the terminal sped things up. I also wanted to
-improve my knowledge of Haskell and this was a good first project.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I started this project while learning German so I was using &lt;a href=&#34;https://www.dict.cc/&#34;&gt;dict.cc&lt;/a&gt; frequently. Being able to run lookups from the terminal instead of having to navigate to the webpage each time was a big boon. I also wanted to improve my knowledge of Haskell so this was a good starting project.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -48,12 +43,7 @@ improve my knowledge of Haskell and this was a good first project.&lt;/p&gt;</de
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/projects/vim-tagquery/</guid>
-      <description>&lt;p&gt;I use &lt;a href=&#34;https://github.com/vimwiki/vimwiki&#34;&gt;VimWiki&lt;/a&gt; daily for my notes and journal. I tag my notes extensively, but
-found that the built-in tag search in Vim and VimWiki were too basic, supporting only
-searches like &amp;ldquo;find all entries with the tag &lt;code&gt;work&lt;/code&gt;&amp;rdquo;. I wanted to be able to do something
-like &amp;ldquo;find all entries with the tag &lt;code&gt;work&lt;/code&gt; and &lt;code&gt;python&lt;/code&gt; but not &lt;code&gt;flask&lt;/code&gt;&amp;rdquo;. I also was very
-interested in Rust at the time, so I wanted to build something using it and get to know
-the language better.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I use &lt;a href=&#34;https://github.com/vimwiki/vimwiki&#34;&gt;VimWiki&lt;/a&gt; a lot in my daily life as my &lt;a href=&#34;https://en.wikipedia.org/wiki/Personal_knowledge_base&#34;&gt;personal knowledge base/wiki&lt;/a&gt; and journal. I tag my notes extensively but found the built-in tag search in Vim and VimWiki seriously lacking.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -62,9 +52,35 @@ the language better.&lt;/p&gt;</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/projects/socks5/</guid>
-      <description>&lt;p&gt;I wanted to experiment with Python&amp;rsquo;s asyncio and build a server application. SOCKS is
-a simple binary protocol that is well documented and was easy to implement from the
-&lt;a href=&#34;https://tools.ietf.org/html/rfc1928&#34;&gt;RFC&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I wanted to experiment with Python&amp;rsquo;s asyncio and build some kind of server application. SOCKS is a simple binary protocol that is well documented and easy to implement from the &lt;a href=&#34;https://tools.ietf.org/html/rfc1928&#34;&gt;RFC&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>AngularJS Bootstrap</title>
+      <link>https://matt-snider.github.io/projects/angularjs-bootstrap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/projects/angularjs-bootstrap/</guid>
+      <description>&lt;p&gt;This is a now abandoned attempt at building a Bootstrap4-based component framework for AngularJS.&lt;/p&gt;
+&lt;p&gt;At the time, the company where I worked used AngularJS and Bootstrap, but decided against several existing component frameworks for various reasons. I decided it would be fun (and maybe even useful!) to build one myself.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>monkeylang</title>
+      <link>https://matt-snider.github.io/projects/monkeylang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/projects/monkeylang/</guid>
+      <description>&lt;p&gt;This is the code as I follow along with the excellent book &lt;a href=&#34;https://interpreterbook.com/&#34;&gt;&lt;em&gt;Writing an Interpreter in Go&lt;/em&gt;&lt;/a&gt; by Thorsten Ball. The book introduces the reader to the Go programming language and builds an interpreter and REPL for a C-like programming language called &lt;em&gt;monkey&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Open Gift Exchange</title>
+      <link>https://matt-snider.github.io/projects/open-gift-exchange/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/projects/open-gift-exchange/</guid>
+      <description>&lt;p&gt;This is very much a WIP and I haven&amp;rsquo;t had much time for it lately, but the idea is to build an open-source solution for doing gift exchanges (e.g. &lt;em&gt;Secret Santa&lt;/em&gt;). This was motivated by using other &amp;ldquo;free&amp;rdquo; gift exchange web apps and seeing how much advertising &amp;amp; personal data harvesting was going on. I also wanted to learn more about Haskell and &lt;a href=&#34;https://github.com/haskell-servant/servant&#34;&gt;Servant&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -73,8 +89,19 @@ a simple binary protocol that is well documented and was easy to implement from 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/projects/vue-guitar-chords/</guid>
-      <description>&lt;p&gt;I was curious to learn more about &lt;a href=&#34;vuejs&#34;&gt;VueJS&lt;/a&gt;, so I built a library to render and edit
-guitar chords.&lt;/p&gt;</description>
+      <description>This was a fun one to learn more about VueJS. I play guitar (or used to at least&amp;hellip;) and thought it would be cool to build chord diagrams and an editor for them.
+Here what the chord diagrams look like:
+  Other than those basic features I haven&amp;rsquo;t really worked on it much and don&amp;rsquo;t have plans to.
+There is also a basic demo here.</description>
+    </item>
+    
+    <item>
+      <title>Work Journal</title>
+      <link>https://matt-snider.github.io/projects/work-journal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/projects/work-journal/</guid>
+      <description>&lt;p&gt;This was a fun little TODO/productivity app to try out two technologies I was very curious about: &lt;a href=&#34;https://elm-lang.org&#34;&gt;Elm&lt;/a&gt; and &lt;a href=&#34;http://postgrest.org/&#34;&gt;PostgREST&lt;/a&gt;. It consists of a PostgreSQL-based RESTful API and a simple web interface.&lt;/p&gt;</description>
     </item>
     
   </channel>

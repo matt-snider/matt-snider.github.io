@@ -5,14 +5,18 @@
     <link>https://matt-snider.github.io/work/</link>
     <description>Recent content in Works on Matt Snider</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>© 2024 Matt Snider</copyright><atom:link href="https://matt-snider.github.io/work/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2020 Matt Snider</copyright>
+    
+	<atom:link href="https://matt-snider.github.io/work/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Ceridian Dayforce</title>
       <link>https://matt-snider.github.io/work/ceridian-dayforce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/work/ceridian-dayforce/</guid>
-      <description> Led the development of a new internal toolset for implementation consultants to accelerate the implementation cycle, which was later made into a dedicated development team The tools were built using C# and WPF as well as Java and JavaFX and included a Windows installer and updater </description>
+      <description> Spearheaded the development of a new internal toolset for implementation consultants to accelerate the implementation cycle The toolset consisted of GUIs built with C#/WPF &amp;amp; Java/JavaFX/Swing, and a C# WebAPI Backend  </description>
     </item>
     
     <item>
@@ -21,7 +25,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/work/dataport/</guid>
-      <description> Development of dWorkflow, a workflow engine focused on the digitalization of document-based admistration processes The application consister of a REST API, NServiceBus to power the business logic and long-running workflow processes, and an Angular frontend. </description>
+      <description> Full-Stack web development Service Oriented Architecture Service Bus  </description>
     </item>
     
     <item>
@@ -30,7 +34,16 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/work/fresh-city-farms/</guid>
-      <description>Lead team of software engineers using expertise in system design, architecture, and planning of software projects Build &amp;amp; maintain cloud infrastructure as code using Terraform Collaborate with developers and provide guidance via code reviews Served as the technical lead for a project to integrate the systems from both companies after the acquisition of Mama Earth Organics. This included migration of data such as customer passwords, account preferences, subscriptions and invoices.</description>
+      <description> Development and Modernization of a Toronto-based eCommerce platform  </description>
+    </item>
+    
+    <item>
+      <title>Frickl</title>
+      <link>https://matt-snider.github.io/work/frickl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/work/frickl/</guid>
+      <description>A failed attempt at starting a new video-sharing platform. Despite not working out, it was a great experience and we learned a lot.</description>
     </item>
     
     <item>
@@ -39,7 +52,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/work/surf-media-gmbh/</guid>
-      <description> Built and tested web services in a microservices architecture for an advertising performance network using Java/Dropwizard and Python/Flask/DRF Developed a proxy server to interface with mobile devices as part of our automated ad-testing infrastructure </description>
+      <description> Designed, implemented and tested web services for an advertising performance network in a Deis-based microservices architecture REST APIs and message consumers using Java/Dropwizard and Python/Flask/DRF AngularJS-based frontend Developed a SOCKS5 proxy server to interface with devices as part of our automated ad-testing infrastructure Mentored more junior coworkers through pair programming &amp;amp; code reviews  </description>
     </item>
     
   </channel>

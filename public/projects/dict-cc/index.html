@@ -5,7 +5,7 @@
         <meta name="author" content="Matt Snider">
         <meta name="description" content="https://matt-snider.github.io/">
         
-        <meta name="generator" content="Hugo 0.111.3">
+        <meta name="generator" content="Hugo 0.64.0" />
 
         <title>Matt Snider</title>
 
@@ -41,6 +41,8 @@
         
 
         
+
+        
         <li class="nav-item">
             <a href="https://matt-snider.github.io/projects/" class="nav-link">
                 Projects
@@ -48,14 +50,17 @@
         </li>
         
 
-        
         <li class="nav-item">
-            <a href="https://matt-snider.github.io/resume/" class="nav-link">
-                CV
-            </a>
+            <ul class="nav-list languages">
+                <li class="lang">
+                    <a class="active">en</a>
+                </li>
+
+                
+            </ul>
         </li>
-        
     </ul>
+
 </nav>
 
 
@@ -90,11 +95,8 @@
         </div>
 
         <div class="my-5">
-            <p>While learning German, I found that frequently looking up translations on
-<a href="https://www.dict.cc/">dict.cc</a> was slow - open the browser, type in the URL, wait for it to load, type
-in the search, etc. Being able to do this in the terminal sped things up. I also wanted to
-improve my knowledge of Haskell and this was a good first project.</p>
-<p>Here&rsquo;s an example of using the tool:</p>
+            <p>I started this project while learning German so I was using <a href="https://www.dict.cc/">dict.cc</a> frequently. Being able to run lookups from the terminal instead of having to navigate to the webpage each time was a big boon. I also wanted to improve my knowledge of Haskell so this was a good starting project.</p>
+<p>Here&rsquo;s an example</p>
 <pre><code class="language-sh">$ dict-cc dictionary
 
 Englisch                                                      Deutsch
@@ -103,6 +105,7 @@ ling. publ. dictionary                        Wörterbuch {n} [1324 ✓]
 dictionary                                         Lexikon {n} [70 ✓]
 dictionary                        Diktionär {n} {m} [veraltet] [66 ✓]
 </code></pre>
+<p>If I were to start again, I would base it on the <a href="https://en.wikipedia.org/wiki/DICT">DICT dictionary network protocol</a> and then add other backends from there as necessary (e.g. dict.cc, Linguee, Leo). Maybe at some point I will refactor it.</p>
         </div>
     </div>
 </div>
@@ -110,21 +113,7 @@ dictionary                        Diktionär {n} {m} [veraltet] [66 ✓]
             </div>
 
             <footer class="footer">
-    <div class="social">
-    <a href="https://github.com/matt-snider" class="social-link">
-        <img src="/icons/github.svg">
-    </a>
-    <a href="https://gitlab.com/matt-snider" class="social-link">
-        <img src="/icons/gitlab.svg">
-    </a>
-    <a href="mailto:[myfirstname].[mylastname]@protonmail.com" class="social-link">
-        <img src="/icons/mail.svg">
-    </a>
-</div>
-
-
-
-    © 2024 Matt Snider
+    © 2020 Matt Snider
 </footer>
 
 

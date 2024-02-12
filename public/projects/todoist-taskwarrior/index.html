@@ -5,7 +5,7 @@
         <meta name="author" content="Matt Snider">
         <meta name="description" content="https://matt-snider.github.io/">
         
-        <meta name="generator" content="Hugo 0.111.3">
+        <meta name="generator" content="Hugo 0.64.0" />
 
         <title>Matt Snider</title>
 
@@ -41,6 +41,8 @@
         
 
         
+
+        
         <li class="nav-item">
             <a href="https://matt-snider.github.io/projects/" class="nav-link">
                 Projects
@@ -48,14 +50,17 @@
         </li>
         
 
-        
         <li class="nav-item">
-            <a href="https://matt-snider.github.io/resume/" class="nav-link">
-                CV
-            </a>
+            <ul class="nav-list languages">
+                <li class="lang">
+                    <a class="active">en</a>
+                </li>
+
+                
+            </ul>
         </li>
-        
     </ul>
+
 </nav>
 
 
@@ -94,16 +99,11 @@
         </div>
 
         <div class="my-5">
-            <p>I used <a href="https://todoist.com/">Todoist</a> for a long time and it is a really great productivity app. But
-after trying <a href="https://taskwarrior.org/">Taskwarrior</a>, I knew I wanted to switch. I enjoy using and
-building CLI tools, so I decided to build a tool to migrate all my tasks from Todoist into
-Taskwarrior.</p>
-<p>The CLI is built using <a href="https://github.com/pallets/click">Click</a>, and from there it basically just loops over all the
-Todoist tasks retrieved using the <a href="https://todoist-python.readthedocs.io/en/latest/">todoist-python</a> library. There is a bit
-of Click-based logic to allow the user to perform several actions against the tasks before
-migrating them. Finally, it adds task to the local Taskwarrior database using the
-<a href="https://github.com/ralphbean/taskw">taskw</a> library.</p>
-<p>Here is an example:</p>
+            <p>I think <a href="https://todoist.com/">Todoist</a> is a fantastic productivity app, but I have recently been trying to transition to as mnay open-source &amp; self-hosted tools as possible. This led me to build a tool to migrate all my tasks from Todoist into Taskwarrior.</p>
+<p>Taskwarrior is great! It&rsquo;s open source, and self-hostable (taskserver/taskd). There&rsquo;s a CLI, <a href="https://en.wikipedia.org/wiki/Text-based_user_interface">TUI</a> (see <a href="https://github.com/scottkosty/vit">vit</a>, <a href="https://github.com/lharding/tasknc">tasknc</a>), and an Android app (see <a href="taskwarriorandroid">Taskwarrior Android</a>, <a href="https://github.com/MirakelX/mirakel-android">Mirakel</a>).</p>
+<p>On Todoist I couldn&rsquo;t access my completed tasks, comment on tasks, or set tags, as well as many other operations. I understand the need to monetize a product that they&rsquo;ve worked hard and done a great job on - I only had a free account, and this isn&rsquo;t a complaint! But, with Taskwarrior I own and have access to <em>all</em> my data and all features of the tool. A downside is that the UX isn&rsquo;t as good as Todoist.</p>
+<p>I wrote CLI a tool to migrate my data in Python 3.x using <a href="https://github.com/pallets/click">Click</a>. It uses the <a href="https://todoist-python.readthedocs.io/en/latest/">todoist-python</a> library to access the <a href="https://developer.todoist.com/sync">Todoist Sync API</a>. To interface with the local Taskwarrior it uses <a href="https://github.com/ralphbean/taskw">taskw</a>. It can migrate all tasks at once, or iterate through them in an interactive manner prompting the user to modify, skip, etc for each task.</p>
+<p>For example:</p>
 <pre><code class="language-sh">$ python -m todoist_taskwarrior.cli migrate --interactive
 Interactively add tasks
 
@@ -137,21 +137,7 @@ Import this task? (y, n, r, t, p, q, ?):
             </div>
 
             <footer class="footer">
-    <div class="social">
-    <a href="https://github.com/matt-snider" class="social-link">
-        <img src="/icons/github.svg">
-    </a>
-    <a href="https://gitlab.com/matt-snider" class="social-link">
-        <img src="/icons/gitlab.svg">
-    </a>
-    <a href="mailto:[myfirstname].[mylastname]@protonmail.com" class="social-link">
-        <img src="/icons/mail.svg">
-    </a>
-</div>
-
-
-
-    © 2024 Matt Snider
+    © 2020 Matt Snider
 </footer>
 
 

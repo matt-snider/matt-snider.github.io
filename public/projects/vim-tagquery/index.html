@@ -5,7 +5,7 @@
         <meta name="author" content="Matt Snider">
         <meta name="description" content="https://matt-snider.github.io/">
         
-        <meta name="generator" content="Hugo 0.111.3">
+        <meta name="generator" content="Hugo 0.64.0" />
 
         <title>Matt Snider</title>
 
@@ -41,6 +41,8 @@
         
 
         
+
+        
         <li class="nav-item">
             <a href="https://matt-snider.github.io/projects/" class="nav-link">
                 Projects
@@ -48,14 +50,17 @@
         </li>
         
 
-        
         <li class="nav-item">
-            <a href="https://matt-snider.github.io/resume/" class="nav-link">
-                CV
-            </a>
+            <ul class="nav-list languages">
+                <li class="lang">
+                    <a class="active">en</a>
+                </li>
+
+                
+            </ul>
         </li>
-        
     </ul>
+
 </nav>
 
 
@@ -100,16 +105,16 @@
         </div>
 
         <div class="my-5">
-            <p>I use <a href="https://github.com/vimwiki/vimwiki">VimWiki</a> daily for my notes and journal. I tag my notes extensively, but
-found that the built-in tag search in Vim and VimWiki were too basic, supporting only
-searches like &ldquo;find all entries with the tag <code>work</code>&rdquo;. I wanted to be able to do something
-like &ldquo;find all entries with the tag <code>work</code> and <code>python</code> but not <code>flask</code>&rdquo;. I also was very
-interested in Rust at the time, so I wanted to build something using it and get to know
-the language better.</p>
-<p>I decided to first build a CLI program in Rust called <a href="https://github.com/matt-snider/ctags-query">ctags-query</a>, that
-could parse tags from my notes, store them according to the <a href="http://ctags.sourceforge.net/ctags.html#TAG%20FILE%20FORMAT">CTAGS spec</a>,
-and then query them with a simple query syntax. I built the parser in plain Rust without
-using any external libraries which was a pretty interesting aspect of this project.</p>
+            <p>I use <a href="https://github.com/vimwiki/vimwiki">VimWiki</a> a lot in my daily life as my <a href="https://en.wikipedia.org/wiki/Personal_knowledge_base">personal knowledge base/wiki</a> and journal. I tag my notes extensively but found the built-in tag search in Vim and VimWiki seriously lacking.</p>
+<p>It only supports simple searches like:</p>
+<blockquote>
+<p>find all entries that have the tag <code>xyz</code></p>
+</blockquote>
+<p>But what I wanted, was something like:</p>
+<blockquote>
+<p>find all entries with the tag <code>work</code> AND <code>python</code> AND <code>parsing</code></p>
+</blockquote>
+<p>So I decided to first build a CLI program in Rust, <a href="https://github.com/matt-snider/ctags-query">ctags-query</a>, that could parse and store [ctags files][ctags-file-format] in a way that would allow querying. It  was now possible to build a simple query interpreter to do exactly what I wanted:</p>
 <pre><code>$ ctags-query 'work &amp; python &amp; parsing'
 path/to/fileX:10
 path/to/fileY:50
@@ -119,9 +124,7 @@ $ ctags-query 'work &amp; python &amp; parsing'
 path/to/fileX:22
 path/to/fileY:90
 </code></pre>
-<p>After that I integrated it into Vim as a Vimscript plugin in the
-<a href="https://github.com/matt-snider/ctags-query">vim-tagquery</a> project and gave it a basic <a href="https://github.com/junegunn/fzf">FZF</a>-based search
-interface. Now it was possible to interactively query by tags within Vim!</p>
+<p>Integrating it into Vim as a plugin just required building a basic Vimscript layer on top of the Rust CLI tool, which is the code that lives in the <a href="https://github.com/matt-snider/ctags-query">vim-tagquery</a> repository. I gave it a basic <a href="http://ctags.sourceforge.net/ctags.html#TAG%20FILE%20FORMAT">FZF</a>-based search interface.</p>
         </div>
     </div>
 </div>
@@ -129,21 +132,7 @@ interface. Now it was possible to interactively query by tags within Vim!</p>
             </div>
 
             <footer class="footer">
-    <div class="social">
-    <a href="https://github.com/matt-snider" class="social-link">
-        <img src="/icons/github.svg">
-    </a>
-    <a href="https://gitlab.com/matt-snider" class="social-link">
-        <img src="/icons/gitlab.svg">
-    </a>
-    <a href="mailto:[myfirstname].[mylastname]@protonmail.com" class="social-link">
-        <img src="/icons/mail.svg">
-    </a>
-</div>
-
-
-
-    © 2024 Matt Snider
+    © 2020 Matt Snider
 </footer>
 
 

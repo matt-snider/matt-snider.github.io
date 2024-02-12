@@ -5,14 +5,28 @@
     <link>https://matt-snider.github.io/tags/angularjs/</link>
     <description>Recent content in AngularJS on Matt Snider</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>© 2024 Matt Snider</copyright><atom:link href="https://matt-snider.github.io/tags/angularjs/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2020 Matt Snider</copyright>
+    
+	<atom:link href="https://matt-snider.github.io/tags/angularjs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AngularJS Bootstrap</title>
+      <link>https://matt-snider.github.io/projects/angularjs-bootstrap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matt-snider.github.io/projects/angularjs-bootstrap/</guid>
+      <description>&lt;p&gt;This is a now abandoned attempt at building a Bootstrap4-based component framework for AngularJS.&lt;/p&gt;
+&lt;p&gt;At the time, the company where I worked used AngularJS and Bootstrap, but decided against several existing component frameworks for various reasons. I decided it would be fun (and maybe even useful!) to build one myself.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Surf Media Gmbh</title>
       <link>https://matt-snider.github.io/work/surf-media-gmbh/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://matt-snider.github.io/work/surf-media-gmbh/</guid>
-      <description> Built and tested web services in a microservices architecture for an advertising performance network using Java/Dropwizard and Python/Flask/DRF Developed a proxy server to interface with mobile devices as part of our automated ad-testing infrastructure </description>
+      <description> Designed, implemented and tested web services for an advertising performance network in a Deis-based microservices architecture REST APIs and message consumers using Java/Dropwizard and Python/Flask/DRF AngularJS-based frontend Developed a SOCKS5 proxy server to interface with devices as part of our automated ad-testing infrastructure Mentored more junior coworkers through pair programming &amp;amp; code reviews  </description>
     </item>
     
   </channel>

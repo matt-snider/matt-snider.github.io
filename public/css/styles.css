@@ -13,21 +13,21 @@ body {
 
 a {
     transition: color .4s;
-    color: rgb(52, 53, 56);
+    color: #265C83;
 }
 
 a:link,
 a:visited {
-    color: rgb(52, 53, 56);
+    color: #265c83;
 }
 
 a:hover {
-    color: rgb(52, 53, 56, 0.5);
+    color: #7fdbff;
 }
 
 a:active  {
     transition: color .3s;
-    color: rgb(52, 53, 56, 0.5);
+    color: #007be6;
 }
 
 hr {
@@ -75,7 +75,8 @@ hr {
 .intro {
     display: flex;
     height: 100%;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .intro h1, .intro h2, .intro h3, .intro h4, .intro h5, .intro h6 {
@@ -83,18 +84,16 @@ hr {
 }
 
 .intro-summary {
-}
-
-.summary-text {
-    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .face {
-    float:left;
     height: 250px;
     border: 1px solid #dee2e6;
+    border-radius: 50%;
     padding: 2px;
-    margin-right: 12px;
 }
 
 /**
@@ -133,12 +132,31 @@ hr {
 }
 
 .nav-link {
-    font-size: 1.9em;
+    font-size: 1.75em;
+    font-weight: 700;
+    text-transform: uppercase;
     text-decoration: none;
 }
 
 a.nav-link:hover {
     text-decoration: underline;
+}
+
+.nav-list.languages {
+    padding: 0;
+}
+
+.lang {
+    display: inline-block;
+}
+
+.lang a.active {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.lang a.active:hover {
+    color: unset;
 }
 
 
@@ -152,6 +170,24 @@ a.nav-link:hover {
 
 .education-entry .degree {
     font-style: italic;
+}
+
+
+/**
+ * Skills Table
+ */
+.skills-table th,
+.skills-table td {
+    padding: 1.0rem;
+    vertical-align: top;
+    font-size: 1.25rem;
+}
+
+.skills-table th[colspan="3"] {
+    background-color: grey;
+    color: white;
+    padding: 0.8rem;
+    font-size: 1.15rem;
 }
 
 /**
